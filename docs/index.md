@@ -13,7 +13,7 @@
 
 #### Journal Entries
 
-[Temp entry (dd/mm/yyyy)](/entries/journal_[index]_[dd-mm-yyyy].md)
+[Template Entry (dd/mm/yyyy)](/entries/journal_[index]_[dd-mm-yyyy].md)
 
 <br />
 <br />
