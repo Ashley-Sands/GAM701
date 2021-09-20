@@ -1,9 +1,9 @@
 ## Welcome to My Journal
-### for **GAM701 - Synergies** module at **Falmouth University**
+#### for **GAM701 - Synergies** module at **Falmouth University**
 <br />
 <br />
 
-#### Introduction
+### Introduction
 
 ```
  Introduction here....
@@ -11,7 +11,7 @@
 <br />
 <br />
 
-#### Journal Entries
+### Journal Entries
 
 [Template Entry (dd/mm/yyyy)](/entries/journal_[index]_[dd-mm-yyyy].md)
 
