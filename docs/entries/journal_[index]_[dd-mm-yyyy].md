@@ -2,5 +2,6 @@
 #### Entry [index], Published: [dd-mm-yyyy]
 
 ### Sub-Heading
-This is a template for journal entries to help keep consistency!
+
+This is a template for journal entries to help keep consistency!  
 [Page content goes here]
