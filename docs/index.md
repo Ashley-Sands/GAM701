@@ -1,4 +1,5 @@
-## Welcome to GitHub Pages
+## Welcome to My Journal
+### for GAM701 - Synergies module at Falmouth University 
 
 You can use the [editor on GitHub](https://github.com/Ashley-Sands/GAM701/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
