@@ -1,14 +1,22 @@
 ## Welcome to My Journal
 ### for **GAM701 - Synergies** module at **Falmouth University**
-  
-  
-  
-#### Introduction
+<br />
+<br />
 
-#### Journal Entries
+### Introduction
 
+```
+ Introduction here....
+```
+<br />
+<br />
 
-=====
+### Journal Entries
+
+<br />
+<br />
+
+-------
   
 TODO. Remove.  
   
