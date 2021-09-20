@@ -13,6 +13,8 @@
 
 #### Journal Entries
 
+[Temp entry (dd/mm/yyyy)](/entries/journal-1-dd-mm-yyyy.md)
+
 <br />
 <br />
 
