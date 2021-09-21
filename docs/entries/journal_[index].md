@@ -32,13 +32,17 @@ document.getElementById("published").innerHTML   = published
 next_id = entry_id + 1
 priv_id = entry_id - 1
 
+next_links = document.getElementsByClassName("next_entry")
+priv_links = document.getElementsByClassName("priv_entry")
+
 // TODO: need to find a way to prevent next page link if on last entry
 // Maybe i could just use the js fetch API to see if it returns an error or not.
-document.getElementsByClassName("next_entry").forEach( el => el.innerHTML = '<a href="journal_'+next_id+'">Next ></a>' )
+for ( let i in next_links )
+    next_links[i].innerHTML = '<a href="journal_'+next_id+'">Next ></a>'
 
 // only display the priv page link if we have gone past the first page.
-if ( priv_id >= 0)
-    document.getElementsByClassName("priv_entry").forEach( el => el.innerHTML = '<a href="journal_'+priv_id+'">< Priv</a>' )
+for ( let i in priv_links )
+    priv_links[i].innerHTML = '<a href="journal_'+priv_id+'">< Priv</a>' )
 
 
 </script>
