@@ -10,4 +10,4 @@ This is a template for journal entries to help keep consistency!
 
 [<Return to index](../)
 &nbsp;&nbsp;&nbsp;&nbsp;
-[Next >](/journal_[index].md)
+[Next >](./journal_[index].md)
