@@ -8,5 +8,5 @@
 This is a template for journal entries to help keep consistency!  
 [Page content goes here]
 
-<!---->[Next >](/journal_[index].md)<!---->
+[Next >](/journal_[index].md)
 [<Return to index](../)
