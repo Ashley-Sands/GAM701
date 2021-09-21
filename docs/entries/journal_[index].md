@@ -42,7 +42,7 @@ for ( let i in next_links )
 
 // only display the priv page link if we have gone past the first page.
 for ( let i in priv_links )
-    priv_links[i].innerHTML = '<a href="journal_'+priv_id+'">< Priv</a>' )
+    priv_links[i].innerHTML = '<a href="journal_'+priv_id+'">< Priv</a>'
 
 
 </script>
