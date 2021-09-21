@@ -19,7 +19,7 @@ This is a template for journal entries to help keep consistency!
 entry_id  = 1
 published = "" 
 
-document.getElementById("entry_index").innerHTML = entry_id
+document.getElementById("index").innerHTML = entry_id
 document.getElementById("published").innerHTML   = published
 
 next_id = entry_id + 1
