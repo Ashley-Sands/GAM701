@@ -29,20 +29,29 @@ document.getElementById("index").innerHTML = entry_id
 document.getElementById("published").innerHTML   = published
 
 
-next_id = entry_id + 1
-priv_id = entry_id - 1
+next_page = "journal_"+entry_id + 1
+priv_page = "journal_"+entry_id - 1
 
 next_links = document.getElementsByClassName("next_entry")
 priv_links = document.getElementsByClassName("priv_entry")
 
-// TODO: need to find a way to prevent next page link if on last entry
-// Maybe i could just use the js fetch API to see if it returns an error or not.
-for ( let i in next_links )
-    next_links[i].innerHTML = '<a href="journal_'+next_id+'">Next ></a>'
+// atempt to fetch the next page. 
+// if we get an ok responce display the next links, 
+// otherwise we have most likely reaced the end.
+fetch('http://www.ashleysands.co.uk/GAM701/entries/'+next_page+'.html')
+    .then (
+        responce => {
+        if ( responce.ok ) 
+            for ( let i in next_links )
+                next_links[i].innerHTML = '<a href="./'+next_page+'">Next ></a>'
+        }
+    )
 
 // only display the priv page link if we have gone past the first page.
-for ( let i in priv_links )
-    priv_links[i].innerHTML = '<a href="journal_'+priv_id+'">< Priv</a>'
+// theres no need to fetch the prv page, since we know the min id is 0
+if (entry_id > 0)
+    for ( let i in priv_links )
+        priv_links[i].innerHTML = '<a href="./'+priv_page+'">< Priv</a>'
 
 
 </script>
