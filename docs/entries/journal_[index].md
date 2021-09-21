@@ -19,18 +19,18 @@ This is a template for journal entries to help keep consistency!
 entry_id  = 1
 published = "" 
 
-document.getElementByID("entry_index").innerHTML = entry_id
-document.getElementByID("published").innerHTML   = published
+document.getElementById("entry_index").innerHTML = entry_id
+document.getElementById("published").innerHTML   = published
 
 next_id = entry_id + 1
 priv_id = entry_id - 1
 
 // TODO: need to find a way to prevent next page link if on last entry
 // Maybe i could just use the js fetch API to see if it returns an error or not.
-document.getElementByID("next_entry").innerHTML = '<a href="journal_'+next_id+'">Next ></a>'
+document.getElementById("next_entry").innerHTML = '<a href="journal_'+next_id+'">Next ></a>'
 
 // only display the priv page link if we have gone past the first page.
 if ( priv_id > 0)
-    document.getElementByID("priv_entry").innerHTML = '<a href="journal_'+priv_id+'">< Priv</a>'
+    document.getElementById("priv_entry").innerHTML = '<a href="journal_'+priv_id+'">< Priv</a>'
 
 </script>
