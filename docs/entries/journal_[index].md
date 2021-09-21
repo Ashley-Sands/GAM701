@@ -12,11 +12,11 @@ This is a template for journal entries to help keep consistency!
 | 
 [Return to index](../)
 | 
-<span id="next_entry" style="display: inline;">Next ></span>
+<span id="next_entry" style="display: inline;"></span>
 
 <script>
 // Store the entry id and published values in a JS script, to make life easier with updateing links.
-entry_id  = 0
+entry_id  = 1
 published = "" 
 
 document.getElementByID("entry_index").innerHTML = entry_id
@@ -27,7 +27,7 @@ priv_id = entry_id - 1
 
 // TODO: need to find a way to prevent next page link if on last entry
 // Maybe i could just use the js fetch API to see if it returns an error or not.
-document.getElementByID("next_entry").href = '<a href="journal_'+next_id+'">Next ></a>'
+document.getElementByID("next_entry").innerHTML = '<a href="journal_'+next_id+'">Next ></a>'
 
 // only display the priv page link if we have gone past the first page.
 if ( priv_id > 0)
