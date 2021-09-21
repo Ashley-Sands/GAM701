@@ -36,8 +36,8 @@ document.getElementById("index").innerHTML = entry_id
 document.getElementById("published").innerHTML   = published
 
 
-next_page = "journal_"+entry_id + 1
-priv_page = "journal_"+entry_id - 1
+next_page = "journal_"+ (entry_id + 1)
+priv_page = "journal_"+ (entry_id - 1)
 
 next_links = document.getElementsByClassName("next_entry")
 priv_links = document.getElementsByClassName("priv_entry")
