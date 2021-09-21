@@ -1,5 +1,5 @@
 ## [Tital Goes Here] - Journal Entry Template 
-#### Entry [<span id="index"></span>], Published: [<span id="published"></span>]
+#### Entry: <span id="index"></span>, Published: <span id="published"></span>
 
 <span class="priv_entry" style="display: inline;"></span>
 | 
@@ -21,7 +21,7 @@ TEST PAGE
 
 <script>
 // Store the entry id and published values in a JS script, to make life easier with updateing links.
-entry_id  = -1
+entry_id  = 1
 published = "dd-mm-yy" 
 
 document.getElementById("index").innerHTML = entry_id

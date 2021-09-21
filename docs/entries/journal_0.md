@@ -1,5 +1,5 @@
 ## The Frustrations of being Dyslixic
-#### Entry [<span id="index"></span>], Published: [<span id="published"></span>]
+#### Entry <span id="index"></span>, Published: <span id="published"></span>
 
 <span class="priv_entry" style="display: inline;"></span>
 | 
