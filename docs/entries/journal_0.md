@@ -17,12 +17,23 @@ If I’m to be honest, I actually quite enjoy writing about projects and the res
 
 Anyway, while I was Googling the spelling for dislexic (apparently its spelt 'dyslexic', oh the irony) I stumbled across a lovely quote that I think hits the nail on the head perfectly.
 
-*"Having dyslexia can sometimes make you feel frustrated or sad. With the right help, though, you can learn to read—and even to enjoy reading—and you can be anything you want to be."* [\cite{ On Being Dyslexic - Yale Dyslexia}]  
+*"Having dyslexia can sometimes make you feel frustrated or sad. With the right help, though, you can learn to read—and even to enjoy reading—and you can be anything you want to be."* [[1](#c1)]
 (tho I would like to add ‘write’/’writing’ to that but it’s pretty much spot on, in my opinion) 
 
 And I want to be a programmer, with a strong skillset in distributed systems and AI, find new ways to improve current technologies, the way we interact with media and even each other. However, I feel that I must improve my writing further. I know I can, I’ve proven I can, I just need more practise.
 
+<br />
+
 ### Cites
+
+<br />
+
+<span id="c1">
+[1] The Yale Center For Dyslexia & Creativity, “On Being Dyslexic,” [Online]. Available: https://dyslexia.yale.edu/resources/dyslexic-kids-adults/on-being-dyslexic/, [Accessed: 21 September 2021] 
+</span>
+
+<br />
+<br />
 
 <span class="priv_entry" style="display: inline;"></span>
 | 

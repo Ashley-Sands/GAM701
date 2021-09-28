@@ -12,7 +12,18 @@
 
 TEST PAGE
 
+<br />
+
 ### Cites
+
+<br />
+
+<span id="c1">
+[1] Author, “Title,” [Online]. Available: URL, [Accessed: day Month Year] 
+</span>
+
+<br />
+<br />
 
 <span class="priv_entry" style="display: inline;"></span>
 | 
