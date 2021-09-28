@@ -37,7 +37,7 @@ priv_links = document.getElementsByClassName("priv_entry")
 // atempt to fetch the next page. 
 // if we get an ok responce display the next links, 
 // otherwise we have most likely reaced the end.
-fetch('./entries/'+next_page+'.html')
+fetch('./'+next_page+'.html')
     .then (
         responce => {
         if ( responce.ok ) 
