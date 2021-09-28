@@ -1,4 +1,4 @@
-## The Avatar - Journal Entry Template
+## The Avatar
 #### Entry: <span id="index"></span>, Published: <span id="published"></span>
 
 <span class="priv_entry" style="display: inline;"></span>
@@ -12,6 +12,7 @@
 
 TEST PAGE
 
+### Cites
 
 <span class="priv_entry" style="display: inline;"></span>
 | 
@@ -22,7 +23,7 @@ TEST PAGE
 <script>
 // Store the entry id and published values in a JS script, to make life easier with updateing links.
 entry_id  = 1
-published = "dd-mm-yy" 
+published = "23-09-2021" 
 week = 1
 
 document.getElementById("index").innerHTML = entry_id

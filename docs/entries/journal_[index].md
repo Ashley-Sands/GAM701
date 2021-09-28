@@ -13,6 +13,7 @@
 This is a template for journal entries to help keep consistency!  
 [Page content goes here]
 
+### Cites
 
 <span class="priv_entry" style="display: inline;"></span>
 | 
