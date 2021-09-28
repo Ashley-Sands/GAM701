@@ -18,8 +18,6 @@ This is a template for journal entries to help keep consistency!
 ### Cites
 ##### All citations are available in a single [bibtex file](../references.bib)
 
-<br />
-
 <p id="c1">
 [1] Author, “Title,” [Online]. Available: URL, [Accessed: day Month Year] 
 </p>

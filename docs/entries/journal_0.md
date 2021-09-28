@@ -27,8 +27,6 @@ And I want to be a programmer, with a strong skillset in distributed systems and
 ### Cites
 ##### All citations are available in a single [bibtex file](../references.bib)
 
-<br />
-
 <p id="c1">
 [1] University of Waterloo, "Critical Reflection," [Online]. Available: https://uwaterloo.ca/writing-and-communication-centre/critical-reflection, [Accessed: 21 September 2021]
 </p>
