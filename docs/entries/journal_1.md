@@ -18,9 +18,9 @@ TEST PAGE
 
 <br />
 
-<span id="c1">
+<p id="c1">
 [1] Author, “Title,” [Online]. Available: URL, [Accessed: day Month Year] 
-</span>
+</p>
 
 <br />
 <br />

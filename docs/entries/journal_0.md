@@ -7,7 +7,7 @@
 | 
 <span class="next_entry" style="display: inline;"></span>
 
-This week is the first week back at university after completing a BSc in 'Computing for Games'. Though this time around, I will be undertaking an MSc in 'Artificial Intelligence for Games'. For our first module we have been introduced to development synergies which has been designed to change the way we think about creativity through the process of critical reflection [\cite{}\cite{}]. Critical reflection is a continuous and iterative process of [The process [and/or image]].
+This week is the first week back at university after completing a BSc in 'Computing for Games'. Though this time around, I will be undertaking an MSc in 'Artificial Intelligence for Games'. For our first module we have been introduced to development synergies which has been designed to change the way we think about creativity through the process of critical reflection [[1](#c1)]. Critical reflection is a continuous and iterative process of [The process [and/or image]].
 
 In our first workshop, we started off with a couple of icebreakers. Of which, one involved bringing in a sentimental item and describing it to the person sat next to us, where they would take notes, based on the description. Following that we were asked to compile the notes into a short paragraph or story. However, being dyslexic, makes reading and writing a relatively difficult task for myself and therefor it takes me considerably longer to form comprehensive sentences and paragraphs (or at least it feels that way). In general, I’m prepared to put in the extra time required to produce a comprehensive piece, whether it’s an essay, technical report or even something as simple as an email. However, when it comes to producing paragraphs on the fly, I generally fall flat on my face. Either my brain goes blank (I guess due to the pressure) or, as whit this activate, I produce something that is difficult to understand and is much shorter than the rest of the cohort, since I am unable to go through my normal writing process, due to the time constraints. Furthermore, we had to read our short paragraph to the rest of the cohort, which is something I’m not confident with, but in this case, I was dreading it, since I know I had written considerably less from listening to others in the class, read theirs back (and mine was an absolute mess on paper, not going to lie). 
 
@@ -17,7 +17,7 @@ If I’m to be honest, I actually quite enjoy writing about projects and the res
 
 Anyway, while I was Googling the spelling for dislexic (apparently its spelt 'dyslexic', oh the irony) I stumbled across a lovely quote that I think hits the nail on the head perfectly.
 
-*"Having dyslexia can sometimes make you feel frustrated or sad. With the right help, though, you can learn to read—and even to enjoy reading—and you can be anything you want to be."* [[1](#c1)]
+*"Having dyslexia can sometimes make you feel frustrated or sad. With the right help, though, you can learn to read—and even to enjoy reading—and you can be anything you want to be."* [[2](#c2)]
 (tho I would like to add ‘write’/’writing’ to that but it’s pretty much spot on, in my opinion) 
 
 And I want to be a programmer, with a strong skillset in distributed systems and AI, find new ways to improve current technologies, the way we interact with media and even each other. However, I feel that I must improve my writing further. I know I can, I’ve proven I can, I just need more practise.
@@ -28,9 +28,12 @@ And I want to be a programmer, with a strong skillset in distributed systems and
 
 <br />
 
-<span id="c1">
-[1] The Yale Center For Dyslexia & Creativity, “On Being Dyslexic,” [Online]. Available: https://dyslexia.yale.edu/resources/dyslexic-kids-adults/on-being-dyslexic/, [Accessed: 21 September 2021] 
-</span>
+<p id="c1">
+[1] University of Waterloo, "Critical Reflection," [Online]. Available: https://uwaterloo.ca/writing-and-communication-centre/critical-reflection, [Accessed: 21 September 2021]
+</p>
+<p id="c2">
+[2] The Yale Center For Dyslexia & Creativity, “On Being Dyslexic,” [Online]. Available: https://dyslexia.yale.edu/resources/dyslexic-kids-adults/on-being-dyslexic/, [Accessed: 21 September 2021] 
+</p>
 
 <br />
 <br />
