@@ -16,6 +16,7 @@ This is a template for journal entries to help keep consistency!
 <br />
 
 ### Cites
+##### All citations are available in a single [bibtex file](../references.bib)
 
 <br />
 

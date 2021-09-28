@@ -15,6 +15,7 @@ TEST PAGE
 <br />
 
 ### Cites
+##### All citations are available in a single [bibtex file](../references.bib)
 
 <br />
 

@@ -25,6 +25,7 @@ And I want to be a programmer, with a strong skillset in distributed systems and
 <br />
 
 ### Cites
+##### All citations are available in a single [bibtex file](../references.bib)
 
 <br />
 
