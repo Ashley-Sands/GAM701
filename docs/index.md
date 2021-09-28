@@ -10,6 +10,7 @@
 
 <p style="text-align: center;">
 <img src="http://www.ashleysands.co.uk/includes/images/me.jpeg" style="border:4px solid black; border-radius: 100%; width: 250px; margin-left: auto; margin-right: auto;" >
+<br />
 [Fig. 1. Ashley Sands]
 </p>
 
