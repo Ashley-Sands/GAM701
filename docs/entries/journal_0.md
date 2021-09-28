@@ -32,9 +32,10 @@ And I want to be a programmer, with a strong skillset in distributed systems and
 // Store the entry id and published values in a JS script, to make life easier with updateing links.
 entry_id  = 0
 published = "21-09-2021" 
+week = 1
 
 document.getElementById("index").innerHTML = entry_id
-document.getElementById("published").innerHTML   = published
+document.getElementById("published").innerHTML   = published + "(Week: "+(week)+")"
 
 
 next_page = "journal_"+ (entry_id + 1)

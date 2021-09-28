@@ -1,4 +1,4 @@
-## [Tital Goes Here] - Journal Entry Template 
+## The Avatar - Journal Entry Template
 #### Entry: <span id="index"></span>, Published: <span id="published"></span>
 
 <span class="priv_entry" style="display: inline;"></span>
@@ -23,9 +23,10 @@ TEST PAGE
 // Store the entry id and published values in a JS script, to make life easier with updateing links.
 entry_id  = 1
 published = "dd-mm-yy" 
+week = 1
 
 document.getElementById("index").innerHTML = entry_id
-document.getElementById("published").innerHTML   = published
+document.getElementById("published").innerHTML   = published + "(Week: "+(week)+")"
 
 
 next_page = "journal_"+ (entry_id + 1)
