@@ -5,8 +5,13 @@
 
 ### Introduction
 
-<img src="http://www.ashleysands.co.uk/includes/images/me.jpeg" style="border:4px solid black; border-radius: 100%; width: 250px;" >
+<br />
+<br />
+
+<p style="text-align: center;">
+<img src="http://www.ashleysands.co.uk/includes/images/me.jpeg" style="border:4px solid black; border-radius: 100%; width: 250px; margin-left: auto; margin-right: auto;" >
 [Fig. 1. Ashley Sands]
+</p>
 
 Hello, I’m Ashley Sands [Fig. 1] and welcome to my critical reflection journal (CRJ). The CRJ is part of the **GAM701 - Synergies** module for the **MSc AI for Games** (also shared with other master courses related to games) course at **Falmouth University** and is the first of five modules. The module is designed to challenge our perception of creativity, through the discussion of different creative synergies and a series of rapid projects of which lay the foundation for the CRJ. 
 
