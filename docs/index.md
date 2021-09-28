@@ -34,6 +34,7 @@ This leads us into the final semester, where we will be starting **GAM705 Major 
 ### Journal Entries
 
 [The Frustrations of being Dyslixic (21-09-2021)](./entries/journal_0.md)  
+[The Avatar (23-09-2021)](./entries/journal_1.md)  
 [Template Entry (dd/mm/yyyy)](./entries/journal_[index].md)  
 
 <br />
