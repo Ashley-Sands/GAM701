@@ -35,7 +35,7 @@ published = "21-09-2021"
 week = 1
 
 document.getElementById("index").innerHTML = entry_id
-document.getElementById("published").innerHTML   = published + "(Week: "+(week)+")"
+document.getElementById("published").innerHTML   = `${published} (Week: ${week})`
 
 
 next_page = "journal_"+ (entry_id + 1)

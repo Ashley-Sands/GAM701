@@ -26,7 +26,7 @@ published = "dd-mm-yy"
 week = 1
 
 document.getElementById("index").innerHTML = entry_id
-document.getElementById("published").innerHTML   = published + "(Week: "+(week)+")"
+document.getElementById("published").innerHTML   = `${published} (Week: ${week})`
 
 
 next_page = "journal_"+ (entry_id + 1)
