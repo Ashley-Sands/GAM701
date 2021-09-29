@@ -10,13 +10,13 @@
 Earlier this week we were set a tiny task to create an animated avatar (gif) that would represent and have meaning to one’s self. My initial idea was to animate my three rubber ducks "swimming" around a cafetiere using stop motion animation. However, after taking several shoots it became apparent that it was a little inappropriate for an academic context. Since, the front runner (and my personal favourite) of the 3 ducks is known as "Stinky Finger" of which depicts a rubber duck sticking its middle finger up. The second is holding a cup of coffee [fig. 1] while the third is the tech support ducky [fig. 2]. (Sorry you'll have to Google [Rubber duck stinky finger](https://www.google.com/search?q=ruber+duck+stinky+finger) yourself). 
 
 <p style="text-align: center;">
-<img src="../resources/j1-coffeeDuck.jpg" style="margin-left: auto; margin-right: auto;" >
+<img src="../resources/j1-coffeeDuck.jpg" style="margin-left: auto; margin-right: auto; width: 50%" >
 <br />
 [Fig. 1. Coffee Rubber Duck]
 </p>
 
 <p style="text-align: center;">
-<img src="../resources/j1-techDuck.jpg" style="margin-left: auto; margin-right: auto;" >
+<img src="../resources/j1-techDuck.jpg" style="margin-left: auto; margin-right: auto; width: 50%" >
 <br />
 [Fig. 2. Tech Support Rubber Duck]
 </p>
@@ -28,7 +28,7 @@ So I had to change my idea to something a little more appropriate and to be hone
 I simply, reduced the rubber ducks down to just the coffee duck and switch out the cafetiere for a San Pellegrino water bottle. The rubber duck represents my coffee and programming tendencies. While San Pellegrino is what I drink other than coffee (among other soda waters). The two objects simply just rotate around a central point. However, originally, once a full circle was completed I wanted the water bottle to topple over and smash the duck on the head. But just before the bottle hits the duck I wanted to switch out the screen for an image of Windows's famous **Blue Screen Of Death** (BSOD). Why? you may ask. Well, I’m a bit random like that and over the last 9 or 10 months my life has been plagued with various BSOD's to the point I had to get a new machine, since it appeared to be a motherboard issue. Though I decided to drop the BSOD idea since it was a little to jarring and didn’t quite work out how I would of liked (but that’s development for you). So I just ended up with the two rotating around a central point [fig. 3].
 
 <p style="text-align: center;">
-<img src="../resources/j1-avatar.gif" style="margin-left: auto; margin-right: auto;" >
+<img src="../resources/j1-avatar.gif" style="margin-left: auto; margin-right: auto; width: 50%" >
 <br />
 [Fig. 2. My Avatar]
 </p>
