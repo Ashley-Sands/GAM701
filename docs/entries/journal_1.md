@@ -70,7 +70,7 @@ With all that said, I feel like I need to find a way to *"tip the balance"*. In 
 [3] N. Voge,  “Self Worth Theory: The Key to Understanding & Overcoming Procrastination,”    [Online]. Available: https://www.youtube.com/watch?v=52lZmIafep4, [Accessed 23 September 2021].
 </p>
 <p id="c4">
-——, “Tired of procrastinating? To overcome it, take thetime to understand it,” [Online].   Available: https://ideas.ted.com/tired-of-procrastinating-to-overcome-it-take-the-time-to-understand-it/, [Accessed: 23 September 2021]
+[4] ——, “Tired of procrastinating? To overcome it, take thetime to understand it,” [Online].   Available: https://ideas.ted.com/tired-of-procrastinating-to-overcome-it-take-the-time-to-understand-it/, [Accessed: 23 September 2021]
 </p>
 
 <br />
