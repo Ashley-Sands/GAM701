@@ -61,10 +61,10 @@ With all that said, I feel like I need to find a way to *"tip the balance"*. In 
 ##### All citations are available in a single [bibtex file](../references.bib)
 
 <p id="c1">
-[1] K. Brouwers, Why Rubber Ducking is One of Your Greatest Resources as a Developer,” [Online]. Available: https://medium.com/@katiebrouwers/why-rubber-ducking-is-one-of-your-greatest-resources-as-a-developer-99ac0ee5b70a, [Accessed: 23 September 2021]. 
+[1] K. Brouwers, “Why Rubber Ducking is One of Your Greatest Resources as a Developer,” [Online]. Available: https://medium.com/@katiebrouwers/why-rubber-ducking-is-one-of-your-greatest-resources-as-a-developer-99ac0ee5b70a, [Accessed: 23 September 2021]. 
 </p>
 <p id="c2">
-[2] B. Holland, Talk with a Duck,” [Online]. Available: https://rubberduckdebugging.com/cyberduck/, [Accessed: 23 September 2021]. 
+[2] B. Holland, “Talk with a Duck,” [Online]. Available: https://rubberduckdebugging.com/cyberduck/, [Accessed: 23 September 2021]. 
 </p>
 <p id="c3">
 [3] N. Voge,  “Self Worth Theory: The Key to Understanding & Overcoming Procrastination,”    [Online]. Available: https://www.youtube.com/watch?v=52lZmIafep4, [Accessed 23 September 2021].
