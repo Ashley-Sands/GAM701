@@ -64,43 +64,21 @@ In my opinion 'This War of Mine' [[3](#c3)][fig. 4][fig, 5] is an fantsic exampl
 
 While the amount of detail in 'This War of Mine' is well outside of the scope of our project there are certainly aspects that could of been incorperated. For example we used still frames of our protagonist and a short amount of dialogue relating to the upcoming emotinaly state, if the player fails the activity its game over, the is simple to unhappy to continue. However, we could of included visule representation of the emotins that the player could interact with. For instance our protagonist, a dog, starts in a basket and is to lonny to leave. We should of included a chew toy that the player could interact with, tho if the lonny mission were incomplet, it would give a short empathetic pice of dialgue to why they dont want to play with the chew toy. This would also signall that the player must complete the current task befor being able to continue the game and would further fix the issue of the game abruptly ending. Which on reflection is a terrible desgine choose, since if the player where depressed them selfs, they could interpit it as theres no hope if you fail, which is certinly not the case. Furthermore, in the mini-games, to depict the current emotial state of the character we simpler used a cop-out of a happiness bar. However, we could of used different sprites to representing a happy, nutral and unhappy state. Lastly it wouldent of been to differcult of adjusted the move speed of the character depending on the emotinal state further emphasising the strugle of depression and building greater empathy on the player.
 
+3) *A short burst of emotional empathy works well if desired outcomes to not require significant shifts in how players’ beliefs about themselves, the world, or themselves in relation to the world. But if these kinds of shifts are a design goal, the game should integrate both cognitive and emotional empathy* [[1](c1)]
 
+Personaly i fell this is another thing that 'This War of Mine' does really well. Throughtout the game several NPCs will arrive to your shelter and ask for help. Sometimes to go recuse someone while other times they could be asking for supplies to survive or seeking to join your shelter. They furter play on this with there choose of character, for instance using childen for some situations, which could bisia the players dission depending on the circumstances. However, the players dission doent overly effect the outcome of the game, it may change the mood of some characters depending on thire belife system. Userly affter such encounter, a short message will appear in the characters bio, sometimes they aggree with the player while others will disagree. It offten feels like the game is trying to challange the player precption on the situation, when a charactor dissagres. This can somtimes leave the player feeling guilty for there original chooses.
 
+We could of incorparated somthink simular, just without the level of depth in 'This War of Mine'. For instance, we could of implermented a collectable system. Let's say, in the forest scene you have to collect hanging fruit, while climbing the tree. At some point during the ascend you meet an NPC who is also struging and in despreat need food for there family. On incounting said NPC it could of started a short amount dialogue explaing their situration, which then give the player the option to either share some of the collected fruite or not. As the player is about to complete the minigame, they could meet another NPC with an oposing view to challange the players perspective and maybe even leave the player feeling guilty for their dission. However no matter of the player chooses the outcome of the minigame does not change.
 
+4) *Emphasize points of similarity between the player and people or groups with whom they are supposed to empathize, but beware of provoking defensive avoidance.* [[1](c1)]
 
+In 'This War of Mine' the similarities will come from the fact that most players are just cilvilions, however if the player was a former or current milatary personle it may prevoke a defensice avoidance responce. However in our game we choose to use a animal, shuch as a common pet that people offten relate to and we choose to keep it free from gender in an attempt to further appele to player. However this approch could also cause to some players to avoid the emotioninal responce intended. 
 
+#### Conclution  
+In this post we have brifly explored some of the contrubuting facters of empathy. Furthermore, we have 
+ evaluated different pricebals to better incorperate empathy into games. During my interprtation of these 
+pricebals i have given some examples of some game that i feel have achive the desired outcome. Whatsmore i have then explored how these machanics could of been incorpered into myown project. 
 
-
-
-<!-- Give the example in the paper, to better expain what this means and include an example of this war of mine. -->
-
-
-
-
-it brings a tear to many of the players eyes (including myself). 
-
-which i personaly think achive this pricible brillently.
-
-
-
-
-we where given a an acerdemic journal or blog post to read,  
-
-When our protagonist experances one of thire negative emotions
-
-When we where first put into our teams, one of our members (Daz) came up with a fairly stong idea that would become base to our project. The idea consisted of portraying several emotions in regards to a mental health situation, which we then starting further develop. My first thourth was that we should set it during the covid lock-down, since it could be a relatable situation for meny people. We then started to disscuse how we could turn this idea into a playable game and decided that it should be 2D. Megan (another team member) mentioned making it a side-scroller, simular to the old skl mario games [fig. 1][fig. 2]. Thinking of the more old skl games trigger me suggest maybe approching it from an top-down perspective in the style of the original Pokimon [fig. 3] and Zelder games [Fig. 4]. The other two in the team, aggreed to take an old school top-down approch since it would give them the opertunity to try there hand at some pixle art, which is somthink that nither had done within there art profession. 
-
-[Image-Mario][Fig. 1] [Image-Mario][Fig. 2]
-[Image-Pokimon][Fig. 3] [Image-Zelder][Fig. 4]
-
-Now we had a rought idea for theame of the story and style of the game, we decided 
-
-<!--
-I think i should take another approch to this. as it not coming to mind correctly. (Also just skip this date)
-
-I think i should disscues empathy and me. 
-
--->
 
 <br />
 
