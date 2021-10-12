@@ -133,7 +133,7 @@ In this post we have briefly explored some of the contributing factors of empath
 <br />
 <br />
 
-**Please refer to the [Sources](../references/Sources) file for content used from external sources along with usage and licence infomation**
+**Please refer to the [Sources](../resources/Sources) file for content used from external sources along with usage and licence infomation**
 
 <br />
 <br />
