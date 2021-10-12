@@ -37,6 +37,11 @@ And I want to be a programmer, with a strong skillset in distributed systems and
 <br />
 <br />
 
+**Please refer to the [Sources](../references/Sources) file for content used from external sources along with usage and licence infomation**
+
+<br />
+<br />
+
 <span class="priv_entry" style="display: inline;"></span>
 | 
 [Return to index](../)

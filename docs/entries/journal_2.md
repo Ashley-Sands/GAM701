@@ -45,6 +45,11 @@ Anyway, here's what we made, it doesn’t quite hit the points of the brief and 
 <br />
 <br />
 
+**Please refer to the [Sources](../references/Sources) file for content used from external sources along with usage and licence infomation**
+
+<br />
+<br />
+
 <span class="priv_entry" style="display: inline;"></span>
 | 
 [Return to index](../)
