@@ -1,5 +1,6 @@
 # TODO
 
+- [ ] Add CRJ process to Journal 0
 - [ ] Add Cites to Journal_3
 - [ ]
 

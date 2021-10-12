@@ -31,53 +31,79 @@ Title:  rapid ideation/prototype??
   - and relate this to how we mabe missed the main gole pf the project.
 
 -->
-This weeks workshops is rapid ideation methods, which will become the basis for creating a prototype for a text driven game; which is theamed around 'Call and Responce'. Furthermore, there should be much consideration for the role of empathy and moral agency and while the game should be text-driven, it doent limit us to text-base adventures. But rather opens the posiblities to visule novals through to open 2D/3D worlds and even includes paper protypes. It has been breifed that the player should be able to atain the resolution within 5 minutes of game play.  
+This week’s workshops is rapid ideation methods, which will become the basis for creating a prototype for a text driven game; which is themed around 'Call and Response'. Furthermore, there should be much consideration for the role of empathy and moral agency and while the game should be text-driven, it doesn’t limit us to text-based adventures. But rather opens the possibilities to visual novels through to open 2D/3D worlds and even includes paper protypes. It has been briefed that the player should be able to attain the resolution within 5 minutes of game play.  
 
-For this project we where put into teams of three or four people and begain discussing ideas. We decided to focus on mental health and decided to use a nutral and relatable character who is strugging to deal with several emotions. When a negative emotion is experances, we enter the mind of our protagonist and play out the strugles, to only relise that everthing will be ok in the end.
+For this project we were put into teams of three or four people and began discussing ideas. We decided to focus on mental health and decided to use a neutral and relatable character who is struggling to deal with several emotions. When a negative emotion is experienced, we enter the mind of our protagonist and play out the struggles, to only realise that everything will be ok in the end.
 
-For the emotions we decided to focus on lonliness, frustration and boardom which are all set in different location, each with there own unquniue character that we feel reresents the emotion. For loneliness we decided to use a scropion lost in the desert tring to find thire frends and family; for frustration we whent for a salamander tring to find a calming scatory on the face of a volcaion; and lastly for boardom, you play as a sloth who has to climb the tallest tree to conqure the unhappiness. To illastrate our world we decided to go for a 2d pixal art top-down adventure, simulare to the old school Lengend of Zelder and pokemon games.
+For the emotions we decided to focus on loneliness, frustration and boredom which are all set in different location, each with their own unique character that we feel represents the emotion. For loneliness we decided to use a scorpion lost in the desert trying to find their friends and family; for frustration we went for a salamander trying to find a calming sanctuary on the face of a volcano; and lastly for boredom, you play as a sloth who must climb the tallest tree to conquer their unhappiness. To illustrate our world, we decided to go for a 2D pixel art top-down adventure, like the old school Legend of Zelda and Pokémon games.
+
+<p style="text-align: center;">
+<img src="../resources/j3-pokemon.jpg" style="margin-left: auto; margin-right: auto; width: 50%" >
+<br />
+[fig. 1. Screenshot from Pokemon Yellow]
+<img src="../resources/j3-zelda.png" style="margin-left: auto; margin-right: auto; width: 50%" >
+<br />
+[fig. 2. Screenshot from The Legend of Zelda]
+</p>
 
 [Image-Pokimon][Fig. 1] [Image-Zelder][Fig. 2]
 
-However, somwhere along the lines we lost (or forgot) the emotianl dialogue aspect and overlooked how we where actully going to induce emperpohy on the player. In a later workshop at universtity each team was give a pice of writing to read and we where given 'Designing Game to Foster Empathy' [[1](#c1)] witch was really fitting since it somthink that we lost during the designe process of our project. The paper has an incredably insighfull litture review of different forms of empathy taken from many areas of research. Furthermore, it gives a number of sugestions and pricials for incorperating empathy into games and rounds off the paper by giving some example 'games for good'. So lets take a dive into the paper and have a look at how we could of better incorarted empathy into our game. 
+However, somewhere along the lines we lost (or forgot) the emotional dialogue aspect and overlooked how we were going to induce empathy on the player. In a later workshop at university each team was given a piece of writing to read and we were given 'Designing Game to Foster Empathy' [[1](#c1)] witch was really fitting since it something that we lost during the design process of our project. The paper has an incredibly insightful literature review of different forms of empathy taken from many areas of research. Furthermore, it gives several suggestions and principles for incorporating empathy into games and rounds off the paper by giving some example 'games for good'. So, let’s take a dive into the paper and have a look at how we could of better incorporated empathy into our game. 
 
-The litriture review begins with explaing that empathy is an important area of research, which has been investergated in a wind rage of fields from conflict resolution and psycholgy to helath care traning and even pre-school education. However, in social science it can be described as two broad categories of empathy[Stephan & Finlay, 1999]. The first 'cognituve empathy' which refers to intentionally taking anothers person' point of view. While on the other hand, 'emotional empathy' can be divided into two sub catagories, parallel and reactive. Parallel empathy is understanding vicarious experience of another emotional state. While reactive is described as an emotional response that is dissimilar to what the other person is experancing [Stephan and Finlay (1999)]. 
+The literature review begins with explaining that empathy is an important area of research, which has been investigated in a wind rage of fields from conflict resolution and psychology to health care training and even pre-school education. However, in social science it can be described as two broad categories of empathy [[2](#c2)]. The first 'cognitive empathy' which refers to intentionally taking another person' point of view. While on the other hand, 'emotional empathy' can be divided into two subcategories, parallel and reactive. Parallel empathy is understanding vicarious experience of another emotional state. While reactive is described as an emotional response that is dissimilar to what the other person is experiencing [[2](#c2)]. 
 
-The paper then follows up with a wealth of information regarding these two board areas of research, however, its abit beond the scope of this artical. Therefor, we'll now begin to look at some of the sugestions and pricebals sugested in Belman and Flanagn's artical. Moreover, the authors also make a point that these are an evolving set of principles rather than a comprehensive set of guidlines.
+The paper then follows up with a wealth of information regarding these two board areas of research, however, it is a bit beyond the scope of this article. Therefore, we'll now begin to look at some of the suggestions and principals suggested in Belman and Flanagan’s article. Moreover, the authors also make a point that these are an evolving set of principles rather than a comprehensive set of guidelines.
 
-1) *Players are more likly to empathise when an intentional effort is made when the game begins. This can be approched explicitly or via a more subtle encouagement focusing on an empathrtic posture. However, if empathetic induction is inefective from the offset, most players will play "unempathetically".* [[1](#c1)]
+##### Principle 1)
+ *Players are more likely to empathise when an intentional effort is made when the game begins. This can be approached explicitly or via a more subtle encouragement focusing on an empathetic posture. However, if empathetic induction is ineffective from the offset, most players will play "unempathetically".* [[1](#c1)]
 
-This pricable mkaes me think of the opening scene of 'Ori and The Blind forest' [[2](#c2)][fig. 3] which induces empathy right from the offset, that is then convayed throughout the story. It begines by giving the backstory of the joys and strugles of how we got to where we are now which then takes a dark turn of mourning and loneliness which comes across quite explicity. There approch induces empathy really well, that it even brings a tear to the eyes of many players, inclding myself.
+This principle makes me think of the opening scene of 'Ori and The Blind forest' [fig. 3] which induces empathy right from the offset, that is then conveyed throughout the story. It begins by giving the backstory of the joys and struggles of how we got to where we are now which then takes a dark turn of mourning and loneliness which comes across quite explicitly. There approach induces empathy really well, that it even brings a tear to the eyes of many players.
 
-[Image-Ori][fig. 3]
+<p style="text-align: center;">
+<img src="../resources/j3-Ori.jpg" style="margin-left: auto; margin-right: auto; width: 50%" >
+<br />
+[fig. 3. Ori and the Blind Forest Logo and artwork]
+</p>
 
-With this in mind, i feel that we failed to convay the empthy onto the player. Rather than giving a backstory of 'how we got here', 'what are the strugles' and 'why we fell this way'; We just jumped straight in with 'hey, give me empathy because im loney' without giving any dialogue or narative to why we fell this way. We completly missed the point that the story was ment to be set during lockdown during the covid-19 pandemic and thats why our main protaganist felt so loney. If we had convayed this message, it would of been relatable for many players and would of had a much grater chanch of inducing empathy on the end-users.
-
-2) *Give players specific recommendations about how their actions can address the issues represented in the game* [[1](c1)]
 
 
-Belman and Flanagn further build on this principle by giving an example about assisting peers at risk of suicide in non-player characters (NPCs). They continue by sugessting that it is important that the behaviours are modeled accurately which could be a discouraging task to undertake. However, whitin student projects they offten fallback on iconic representations rather than realistic behaviours, for example, a thunderstome hover over the head of a suicidal NPCs head, which can be a usful repersentation in vedio games. Therefor, it should be decided on a case-by-case basis whether an iconic or true-to-life representation is approprate given the rojects goals.
+With this in mind, I feel that we failed to convey the empathy onto the player. Rather than giving a backstory of 'how we got here', 'what are the struggles' and 'why we fell this way'; We just jumped straight in with 'hey, give me empathy because I’m lonely' without giving any dialogue or narrative to why we fell this way. We completely missed the point that the story was meant to be set during lockdown during the covid-19 pandemic and that’s why our main protagonist felt so lonely. If we had conveyed this message, it would of been relatable for many players and would of had a much greater chance of inducing empathy on the end-users.
 
-In my opinion 'This War of Mine' [[3](#c3)][fig. 4][fig, 5] is an fantsic example of a true-to-life representation of depression. In the game you play as a group of civilans, trying to survive in a besieged city; lacking essestial items such as food and medicine; in danger of being shot by snipers or raded during the night by armed bandits and given constant morle dilemers. Each of these aspects contrabutes to the mentle state of the charactors, as they become sad they begin to move slower, slouch over as they walk and voice thire consernces throught short dialogue. As the characters become depressed, they become almost unplayable, they refuse partiscapate in any activity and offten remain in thire beds for the entire day. It up to the player to instruct the remaining civilans to comfort, encorage and nurture them back to health. All of this can cause the player to feel a great deal of empathy and when things are going horrible wrong it can even cause a state of helplessness.
+##### Principle 2) *Give players specific recommendations about how their actions can address the issues represented in the game* [[1](c1)]
 
-[This war of mine][fig.4][fig.5]
 
-While the amount of detail in 'This War of Mine' is well outside of the scope of our project there are certainly aspects that could of been incorperated. For example we used still frames of our protagonist and a short amount of dialogue relating to the upcoming emotinaly state, if the player fails the activity its game over, the is simple to unhappy to continue. However, we could of included visule representation of the emotins that the player could interact with. For instance our protagonist, a dog, starts in a basket and is to lonny to leave. We should of included a chew toy that the player could interact with, tho if the lonny mission were incomplet, it would give a short empathetic pice of dialgue to why they dont want to play with the chew toy. This would also signall that the player must complete the current task befor being able to continue the game and would further fix the issue of the game abruptly ending. Which on reflection is a terrible desgine choose, since if the player where depressed them selfs, they could interpit it as theres no hope if you fail, which is certinly not the case. Furthermore, in the mini-games, to depict the current emotial state of the character we simpler used a cop-out of a happiness bar. However, we could of used different sprites to representing a happy, nutral and unhappy state. Lastly it wouldent of been to differcult of adjusted the move speed of the character depending on the emotinal state further emphasising the strugle of depression and building greater empathy on the player.
+Belman and Flanagan further build on this principle by giving an example about assisting peers at risk of suicide in non-player characters (NPCs). They continue by suggesting that it is important that the behaviours are modelled accurately which could be a discouraging task to undertake. However, within student projects they often fallback on iconic representations rather than realistic behaviours, for example, a thunderstorm hover over the head of a suicidal NPCs head, which can be a useful representation in video games. However, it should be decided on a case-by-case basis whether an iconic or true-to-life representation is appropriate given the projects goals.
 
-3) *A short burst of emotional empathy works well if desired outcomes to not require significant shifts in how players’ beliefs about themselves, the world, or themselves in relation to the world. But if these kinds of shifts are a design goal, the game should integrate both cognitive and emotional empathy* [[1](c1)]
+In my opinion 'This War of Mine' [[3](#c3)][fig. 4][fig, 5] is an fantastic example of a true-to-life representation of depression. In the game you play as a group of civilians, trying to survive in a besieged city; lacking essential items such as food and medicine; in danger of being shot by snipers or raided during the night by armed bandits and given constant moral dilemmas. Each of these aspects contributes to the mental state of the characters, as they become sad they begin to move slower, slouch over as they walk and voice their concerns through short dialogue. As the characters become depressed, they become almost unplayable, they refuse to participate in any activity and often remain in their beds for the entire day. It up to the player to instruct the remaining civilians to comfort, encourage and nurture them back to health. All of this can cause the player to feel a great deal of empathy and when things are going horrible wrong it can even cause a state of helplessness.
 
-Personaly i fell this is another thing that 'This War of Mine' does really well. Throughtout the game several NPCs will arrive to your shelter and ask for help. Sometimes to go recuse someone while other times they could be asking for supplies to survive or seeking to join your shelter. They furter play on this with there choose of character, for instance using childen for some situations, which could bisia the players dission depending on the circumstances. However, the players dission doent overly effect the outcome of the game, it may change the mood of some characters depending on thire belife system. Userly affter such encounter, a short message will appear in the characters bio, sometimes they aggree with the player while others will disagree. It offten feels like the game is trying to challange the player precption on the situation, when a charactor dissagres. This can somtimes leave the player feeling guilty for there original chooses.
+<p style="text-align: center;">
+<img src="../resources/j3-ThisWarOfMineLogo.jpg" style="margin-left: auto; margin-right: auto; width: 50%" >
+<br />
+[fig. 4. This War of Mine, Logo and Artwork]
+<br />
+<br />
+<img src="../resources/j3-Ori.jpg" style="margin-left: auto; margin-right: auto; width: 50%" >
+<br />
+[fig. 5. This War of Mine, Civilian shalter]
+</p>
+<br />
 
-We could of incorparated somthink simular, just without the level of depth in 'This War of Mine'. For instance, we could of implermented a collectable system. Let's say, in the forest scene you have to collect hanging fruit, while climbing the tree. At some point during the ascend you meet an NPC who is also struging and in despreat need food for there family. On incounting said NPC it could of started a short amount dialogue explaing their situration, which then give the player the option to either share some of the collected fruite or not. As the player is about to complete the minigame, they could meet another NPC with an oposing view to challange the players perspective and maybe even leave the player feeling guilty for their dission. However no matter of the player chooses the outcome of the minigame does not change.
+While the amount of detail in 'This War of Mine' is well outside of the scope of our project there are certainly aspects that could have been incorporated. For example, we used still frames of our protagonist and a short amount of dialogue relating to the upcoming emotional state, if the player fails the activity its game over, they are simply to unhappy to continue. However, we could have included visual representation of the emotions that the player could interact with. For instance, our protagonist, a dog, starts in a basket and is to Lonny to leave. We should have included a chew toy that the player could interact with, though if the lonely mission were incomplete, it would give a short empathetic piece of dialogue to why they don’t want to play with the chew toy. This would also signal that the player must complete the current task before being able to continue the game and would further fix the issue of the game abruptly ending. Which on reflection is a terrible design choose, since if the player had depressed them self, they could interpret it as there’s no hope if you fail, which is certainly not the case. Furthermore, in the mini games, to depict the current emotional state of the character we simpler used a cop-out of a happiness bar. However, we could have used different sprites to represent a happy, neutral and unhappy state. Lastly it wouldn’t have been to difficult to adjusted the move speed of the character depending on the emotional state further emphasising the struggle of depression and building greater empathy on the player.
 
-4) *Emphasize points of similarity between the player and people or groups with whom they are supposed to empathize, but beware of provoking defensive avoidance.* [[1](c1)]
+##### Principle 3) 
+*A short burst of emotional empathy works well if desired outcomes to not require significant shifts in how players’ beliefs about themselves, the world, or themselves in relation to the world. But if these kinds of shifts are a design goal, the game should integrate both cognitive and emotional empathy* [[1](c1)]
 
-In 'This War of Mine' the similarities will come from the fact that most players are just cilvilions, however if the player was a former or current milatary personle it may prevoke a defensice avoidance responce. However in our game we choose to use a animal, shuch as a common pet that people offten relate to and we choose to keep it free from gender in an attempt to further appele to player. However this approch could also cause to some players to avoid the emotioninal responce intended. 
+Personally, I fell this is another thing that 'This War of Mine' does really well. Throughout the game several NPCs will arrive to your shelter and ask for help. Sometimes to go recuse someone while other times they could be asking for supplies to survive or seeking to join your shelter. They further play on this with their choose of character, for instance using children for some situations, which could bias the players decision depending on the circumstances. However, the players decision doesn’t overly affect the outcome of the game, it may change the mood of some characters depending on their belief system. Usually after such encounter, a short message will appear in the characters bio, sometimes they agree with the player while others will disagree. It often feels like the game is trying to challenge the player perception on the situation, when a character disagrees. This can sometimes leave the player feeling guilty for their original chooses.
 
-#### Conclution  
-In this post we have brifly explored some of the contrubuting facters of empathy. Furthermore, we have 
- evaluated different pricebals to better incorperate empathy into games. During my interprtation of these 
-pricebals i have given some examples of some game that i feel have achive the desired outcome. Whatsmore i have then explored how these machanics could of been incorpered into myown project. 
+We could have incorporated something similar, just without the level of depth in 'This War of Mine'. For instance, we could have implemented a collectable system. Let's say, in the forest scene you must collect hanging fruit, while climbing the tree. At some point during the ascend you meet an NPC who is also struggling and in desperate need food for their family. On encountering said NPC it could of started a short amount dialogue explaining their situation, which then give the player the option to either share some of the collected fruit or not. As the player is about to complete the minigame, they could meet another NPC with an opposing view to challenge the players perspective and maybe even leave the player feeling guilty for their decision. However, no matter of the player chooses the outcome of the minigame does not change.
+
+##### Principle 4) 
+*Emphasize points of similarity between the player and people or groups with whom they are supposed to empathize, but beware of provoking defensive avoidance.* [[1](c1)]
+
+In 'This War of Mine' the similarities will come from the fact that most players are just civilians, however if the player was a former or current military personnel it may provoke a defensive avoidance response. However, in our game we choose to use an animal, such as a common pet that people often relate to and we choose to keep it free from gender in an attempt to further appeal to player. However, this approach could also cause to some players to avoid the emotional response intended. 
+
+#### Conclusion  
+In this post we have briefly explored some of the contributing factors of empathy. Furthermore, we have evaluated different principals to better incorporate empathy into games. During my interpretation of these principals, I have given some examples of some game that I feel have achieved the desired outcome. What’s more I have then explored how these mechanics could of been incorporated into my own project.
 
 
 <br />
@@ -86,8 +112,25 @@ pricebals i have given some examples of some game that i feel have achive the de
 ##### All citations are available in a single [bibtex file](../references.bib)
 
 <p id="c1">
-[1] Author, “Title,” [Online]. Available: URL, [Accessed: day Month Year] 
+[1] J. Belman and M. Flanagan, “Designing games to foster empathy,”InternationalJournal of Cognitive Technology, vol. 15, no. 1, p. 11, 2010.
 </p>
+
+<p id="c1">
+[2] W. G. Stephan, K. Finlayet al., “The role of empathy in improving intergrouprelations,”Journal of Social issues, vol. 55, no. 4, pp. 729–743, 1999.
+</p>
+
+
+
+### Other Resources
+**Ori and the blind forest**: https://www.orithegame.com/  [Last Accessed: 05 october 2021]  
+**This war of mine**: https://www.thiswarofmine.com/  [Last Accessed: 05 october 2021]  
+
+
+
+<br />
+<br />
+
+**Please refer to the [Sources](../references/Sources) file for content used from external sources along with usage and licence infomation**
 
 <br />
 <br />
