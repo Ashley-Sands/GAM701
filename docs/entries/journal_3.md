@@ -41,10 +41,13 @@ For the emotions we decided to focus on loneliness, frustration and boredom whic
 <img src="../resources/j3-pokemon.jpg" style="margin-left: auto; margin-right: auto; width: 50%" >
 <br />
 [fig. 1. Screenshot from Pokemon Yellow]
+<br />
+<br />
 <img src="../resources/j3-zelda.png" style="margin-left: auto; margin-right: auto; width: 50%" >
 <br />
 [fig. 2. Screenshot from The Legend of Zelda]
 </p>
+<br />
 
 [Image-Pokimon][Fig. 1] [Image-Zelder][Fig. 2]
 
@@ -60,7 +63,7 @@ The paper then follows up with a wealth of information regarding these two board
 This principle makes me think of the opening scene of 'Ori and The Blind forest' [fig. 3] which induces empathy right from the offset, that is then conveyed throughout the story. It begins by giving the backstory of the joys and struggles of how we got to where we are now which then takes a dark turn of mourning and loneliness which comes across quite explicitly. There approach induces empathy really well, that it even brings a tear to the eyes of many players.
 
 <p style="text-align: center;">
-<img src="../resources/j3-Ori.jpg" style="margin-left: auto; margin-right: auto; width: 50%" >
+<img src="../resources/J3-Ori.jpg" style="margin-left: auto; margin-right: auto; width: 50%" >
 <br />
 [fig. 3. Ori and the Blind Forest Logo and artwork]
 </p>
@@ -82,7 +85,7 @@ In my opinion 'This War of Mine' [[3](#c3)][fig. 4][fig, 5] is an fantastic exam
 [fig. 4. This War of Mine, Logo and Artwork]
 <br />
 <br />
-<img src="../resources/j3-Ori.jpg" style="margin-left: auto; margin-right: auto; width: 50%" >
+<img src="../resources/j3-ThiswarOfMineShalter.jpg" style="margin-left: auto; margin-right: auto; width: 50%" >
 <br />
 [fig. 5. This War of Mine, Civilian shalter]
 </p>
