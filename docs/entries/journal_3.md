@@ -108,7 +108,7 @@ We could have incorporated something similar, just without the level of depth in
 
 In 'This War of Mine' the similarities will come from the fact that most players are just civilians, however if the player was a former or current military personnel it may provoke a defensive avoidance response. However, in our game we choose to use an animal, such as a common pet that people often relate to and we choose to keep it free from gender in an attempt to further appeal to player. However, this approach could also cause to some players to avoid the emotional response intended. 
 
-#### Conclusion  
+## Conclusion  
 In this post we have briefly explored some of the contributing factors of empathy. Furthermore, we have evaluated different principals to better incorporate empathy into games. During my interpretation of these principals, I have given some examples of some game that I feel have achieved the desired outcome. What’s more I have then explored how these mechanics could of been incorporated into my own project.
 
 
