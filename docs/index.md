@@ -27,7 +27,6 @@ In the second semester, we begin with **GAM703 - Game Development Project**, whi
 This leads us into the final semester, where we will be starting **GAM705 Major Project** which gives us the opportunity to research our own field of interest. This could give me a great opportunity to explore the use of Machine Learning in the cloud for video games (or distributed machine learning) [(1)[#c1]]. Distributed systems are another key point of interest for myself and was the focus my undergrad dissertation. I personally feel that distributing machine learning in the cloud has a great deal of potential to unlock new opportunities and experiences never seen before.
 
 
-
 <br />
 <br />
 
@@ -36,7 +35,7 @@ This leads us into the final semester, where we will be starting **GAM705 Major 
 [The Frustrations of being Dyslixic (21-09-2021)](./entries/journal_0.md)  
 [The Avatar (23-09-2021)](./entries/journal_1.md)  
 [Remediation Project (28-09-2021)](./entries/journal_2.md)  
-[... (01-10-21)](./entries/jorunal_3.md)
+[Inducing Empathy In Games (05-10-21)](./entries/journal_3.md)  
 [Template Entry (dd/mm/yyyy)](./entries/journal_[index].md)  
 
 <br />
