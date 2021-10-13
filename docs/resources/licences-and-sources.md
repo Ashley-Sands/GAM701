@@ -13,7 +13,7 @@ All so please note that it has been decided to cache all external resources to p
 ### j3-pokemon.jpg
 Source: https://www.nintendo.co.uk%2FGames%2FGame-Boy%2FPokemon-Yellow-Version-Special-Pikachu-Edition-266142.html
 
-License: Pokemon Yellow is owned by Nintendo and the screenshot is used under 'fair use'   
+License: Pokemon Yellow is owned by Game Freak and Nintendo and the screenshot is used under 'fair use'   
 
 Last Accessed: 05 october 2021  
 
