@@ -8,6 +8,7 @@
 <span class="next_entry" style="display: inline;"></span>
 
 <!-- Points to write about.
+- 
 - lack of leardership
 - unorganised
 - No GDD, lack of kamban board

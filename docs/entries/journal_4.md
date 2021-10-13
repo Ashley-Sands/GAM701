@@ -8,6 +8,7 @@
 <span class="next_entry" style="display: inline;"></span>
 
 <!--
+- 
 - In the privious project (Title goes here) we did a lack of project laning including a GDD and Scrum/Kamban board
 - Talk about scrum and agile
 - 
