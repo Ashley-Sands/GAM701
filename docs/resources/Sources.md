@@ -4,7 +4,7 @@
 
 **For Content listed in this file please use your own best judment and abide to any licenses presented. Therefor I (Ashley Sands) takes absolutly no responsibility for the use of this content on external sites (ANY site that IS NOT 'ashleysands.co.uk' and ANY of its subdomains. This includes the GitHub repository (https://github.com/Ashley-Sands/GAM701) used to host this site (gam701.ashleysands.co.uk))**
 
-All so please note that it has been decided to catch all external resources to prevent it from going missing, for example a url change.
+All so please note that it has been decided to cache all external resources to prevent it from going missing, for example a url change.
 
 ----
 
