@@ -2,7 +2,7 @@
 
 **Its is to be assumed that any resources (images, video or otherwise) not listed in this file where created by myself (Ashley Sands). Therefor any resources not listed may be used on external sites under the 'CC0' license (See https://creativecommons.org/share-your-work/public-domain/cc0/ for more info)**
 
-**For Content listed in this file please use your own best judment and abide to any licenses presented. Therefor I (Ashley Sands) takes absolutly no responsibility for the use of this content on external sites (ANY site that IS NOT 'ashleysands.co.uk' and ANY of its subdomains. This includes the GitHub repository (https://github.com/Ashley-Sands/GAM701) used to host this site (gam701.ashleysands.co.uk)**
+**For Content listed in this file please use your own best judment and abide to any licenses presented. Therefor I (Ashley Sands) takes absolutly no responsibility for the use of this content on external sites (ANY site that IS NOT 'ashleysands.co.uk' and ANY of its subdomains. This includes the GitHub repository (https://github.com/Ashley-Sands/GAM701) used to host this site (gam701.ashleysands.co.uk))**
 
 All so please note that it has been decided to catch all external resources to prevent it from going missing, for example a url change.
 
