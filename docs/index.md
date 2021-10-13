@@ -46,3 +46,10 @@ This leads us into the final semester, where we will be starting **GAM705 Major 
 <p id="c1">
 [1]  K. Bailey,“Cloud Computing Will Bring Big Changes to First-PersonShooters in ’Just a Couple Years,’ DICE GM Says,”   [Online]. Available: https://www.ign.com/articles/battlefield-2042-cloud-computing, 2021, [Accessed 21September 2021].
 </p>
+
+<br />
+<br />
+
+**Please refer to the [Licences and Sources](../resources/licences-and-sources) document for content used from external sources along with usage and licence infomation**
+
+<br />

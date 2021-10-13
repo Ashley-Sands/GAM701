@@ -131,13 +131,6 @@ In this post we have briefly explored some of the contributing factors of empath
 **Ori and the blind forest**: https://www.orithegame.com/  [Last Accessed: 05 october 2021]  
 **This war of mine**: https://www.thiswarofmine.com/  [Last Accessed: 05 october 2021]  
 
-
-
-<br />
-<br />
-
-**Please refer to the [Sources](../resources/Sources) file for content used from external sources along with usage and licence infomation**
-
 <br />
 <br />
 
@@ -146,6 +139,13 @@ In this post we have briefly explored some of the contributing factors of empath
 [Return to index](../)
 | 
 <span class="next_entry" style="display: inline;"></span>
+
+<br />
+<br />
+
+**Please refer to the [Licences and Sources](../resources/licences-and-sources) document for content used from external sources along with usage and licence infomation**
+
+<br />
 
 <script>
 // Store the entry id and published values in a JS script, to make life easier with updateing links.

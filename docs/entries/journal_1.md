@@ -76,16 +76,18 @@ With all that said, I feel like I need to find a way to *"tip the balance"*. In 
 <br />
 <br />
 
-**Please refer to the [Sources](../resources/Sources) file for content used from external sources along with usage and licence infomation**
-
-<br />
-<br />
-
 <span class="priv_entry" style="display: inline;"></span>
 | 
 [Return to index](../)
 | 
 <span class="next_entry" style="display: inline;"></span>
+
+<br />
+<br />
+
+**Please refer to the [Licences and Sources](../resources/licences-and-sources) document for content used from external sources along with usage and licence infomation**
+
+<br />
 
 <script>
 // Store the entry id and published values in a JS script, to make life easier with updateing links.
