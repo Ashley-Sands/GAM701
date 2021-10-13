@@ -13,7 +13,7 @@ All so please note that it has been decided to cache all external resources to p
 ### j3-pokemon.jpg
 Source: https://www.nintendo.co.uk%2FGames%2FGame-Boy%2FPokemon-Yellow-Version-Special-Pikachu-Edition-266142.html
 
-License: Pokemon Yellow is owned by Game Freak and Nintendo and the screenshot is used under 'fair use'   
+License: Pokemon Yellow is owned by Game Freak and Nintendo. The screenshot is used under 'fair use'   
 
 Last Accessed: 05 october 2021  
 
@@ -21,7 +21,7 @@ Last Accessed: 05 october 2021
 ### j3-zelda.png
 source: https://upload.wikimedia.org/wikipedia/en/3/3a/Legend_of_Zelda_NES.PNG
 
-License: The Legend of Zelda is owned by Nintendo and the screenshot is used under 'fair use'   
+License: The Legend of Zelda is owned by Nintendo. The screenshot is used under 'fair use'   
 
 Last Accessed: 05 october 2021
 
