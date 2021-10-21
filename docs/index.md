@@ -37,7 +37,8 @@ This leads us into the final semester, where we will be starting **GAM705 Major 
 [Remediation Project (28-09-2021)](./entries/journal_2.md)  
 [Inducing Empathy In Games (05-10-21)](./entries/journal_3.md)  
 [The Importences of a Game Design Document (08-10-21)](./entries/journal_4.md)  
-[Template Entry (dd/mm/yyyy)](./entries/journal_[index].md)  
+[The Importences of sprint planing and scrum (13-10-2021)](./entries/journal_5.md)  
+[A Tecnical look at A/B testing 2 controller schemes with a GH controller. (18-10-2021)](./entries/journal_6.md)  
 
 <br />
 <br />
