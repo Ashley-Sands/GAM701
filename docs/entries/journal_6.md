@@ -27,164 +27,160 @@ To begin i configure the two controllers in the new unity inputs system [[2](#c2
 
 [fig 5. Unity inputs action maps.]
 
-```
-    //...
+```c#
 
-	public enum Player{ One=-1, Two=1 }			// define as -1 and 1 since it the player multiplyer for direction and power attack
-	public Player playerNumber = Player.One;
+public enum Player{ One=-1, Two=1 }			// define as -1 and 1 since it the player multiplyer for direction and power attack
+public Player playerNumber = Player.One;
 
-	// Inputs
-	protected float Green  => (playerNumber == Player.One ? inputSchem.Player1.Green  : inputSchem.Player2.Green ).ReadValue<float>();
-	protected float Red    => (playerNumber == Player.One ? inputSchem.Player1.Red    : inputSchem.Player2.Red   ).ReadValue<float>();
-	protected float Yellow => (playerNumber == Player.One ? inputSchem.Player1.Yellow : inputSchem.Player2.Yellow).ReadValue<float>();
-	protected float Blue   => (playerNumber == Player.One ? inputSchem.Player1.Blue   : inputSchem.Player2.Blue  ).ReadValue<float>();
-	protected float Orange => (playerNumber == Player.One ? inputSchem.Player1.Orange : inputSchem.Player2.Orange).ReadValue<float>();
+// Inputs
+protected float Green  => (playerNumber == Player.One ? inputSchem.Player1.Green  : inputSchem.Player2.Green ).ReadValue<float>();
+protected float Red    => (playerNumber == Player.One ? inputSchem.Player1.Red    : inputSchem.Player2.Red   ).ReadValue<float>();
+protected float Yellow => (playerNumber == Player.One ? inputSchem.Player1.Yellow : inputSchem.Player2.Yellow).ReadValue<float>();
+protected float Blue   => (playerNumber == Player.One ? inputSchem.Player1.Blue   : inputSchem.Player2.Blue  ).ReadValue<float>();
+protected float Orange => (playerNumber == Player.One ? inputSchem.Player1.Orange : inputSchem.Player2.Orange).ReadValue<float>();
 
-    protected float Strum_up   => (playerNumber == Player.One ? inputSchem.Player1.Strum_up   : inputSchem.Player2.Strum_up  ).ReadValue<float>();
-	protected float Strum_down => (playerNumber == Player.One ? inputSchem.Player1.Strum_down : inputSchem.Player2.Strum_down).ReadValue<float>();
+protected float Strum_up   => (playerNumber == Player.One ? inputSchem.Player1.Strum_up   : inputSchem.Player2.Strum_up  ).ReadValue<float>();
+protected float Strum_down => (playerNumber == Player.One ? inputSchem.Player1.Strum_down : inputSchem.Player2.Strum_down).ReadValue<float>();
 
-	protected float Wham => (playerNumber == Player.One ? inputSchem.Player1.Wham : inputSchem.Player2.Wham).ReadValue<float>();
+protected float Wham => (playerNumber == Player.One ? inputSchem.Player1.Wham : inputSchem.Player2.Wham).ReadValue<float>();
 
-    //...
 ```
 [listings. 1, Inputs properties which sellects the correct action map]
 
 Following this i decided to just implerment the more traditional schema (schema 2) as it is a little simpler and would alow me to develop the basic structre and functionality for each action. Therefor i implermented each action so it has an entry, hold and exit state [listing. 2].
 
-```
-    // ...
+```c#
 
-	private void Punch()
+private void Punch()
+{
+
+	if (Red > 0 && !redDown && CurrentAction == Actions.None)   // entry
 	{
-
-		if (Red > 0 && !redDown && CurrentAction == Actions.None)   // entry
-		{
-			CurrentAction = Actions.Punch;
-			animator.SetTrigger("Punch");
-			redDown = true;
-		}
-		else if ( CurrentAction == Actions.Punch )                  // hold
-		{
-			// do hit box stuff :)
-		}
-		else if ( Red == 0 && redDown )                             // exit
-		{
-			redDown = false;
-		}
-
+		CurrentAction = Actions.Punch;
+		animator.SetTrigger("Punch");
+		redDown = true;
+	}
+	else if ( CurrentAction == Actions.Punch )                  // hold
+	{
+		// do hit box stuff :)
+	}
+	else if ( Red == 0 && redDown )                             // exit
+	{
+		redDown = false;
 	}
 
-    // ...
+}
+
 ```
 [listings. 2, Punch method with the entry, hold and exit states]
 
 Each action (Jump, Crouch, Punch, Kick, Headbutt) is almost the same as puch [listings. 2] except they set the relevent animations and button presses. Now i had to find a way to implerment the other controler scheme without duplicating the code. So i went about making the ``Player`` class abstract, so i could extend the functinality. Originaly i decided to add virtual method for each state so i could also check if the player strumed while pressing the action key [listing. 3].
 
-```
+```c#
+
 private void Punch()
+{
+	// Red
+	// Play Punch Animation
+	if (Red > 0 && !redDown && CurrentAction == Actions.None)
 	{
-		// Red
-		// Play Punch Animation
-		if (Red > 0 && !redDown && CurrentAction == Actions.None)
-		{
-			
-			redDown = true;
-			PrePunch();
-			
-		}
-		else if ( CurrentAction == Actions.Punch )
-		{
-			RunPunch();
-		}
-		else if ( Red == 0 && redDown )
-		{
-			redDown = false;
-			damageApplied = false;
-			PostPunch();
-		}
-
+		
+		redDown = true;
+		PrePunch();
+		
+	}
+	else if ( CurrentAction == Actions.Punch )
+	{
+		RunPunch();
+	}
+	else if ( Red == 0 && redDown )
+	{
+		redDown = false;
+		damageApplied = false;
+		PostPunch();
 	}
 
-	// i have choosen to implerment these as viertul incase theres notting to implerment in the inherited class.
-	protected virtual void PrePunch() 
-	{
-		CurrentAction = Actions.Punch;
-		animator.SetTrigger("Punch");
-		SendDamage(punchDamage);
-	}
+}
 
-	protected virtual void RunPunch() 
-	{
-		SendDamage(punchDamage);
-	}
+protected virtual void PrePunch() 
+{
+	CurrentAction = Actions.Punch;
+	animator.SetTrigger("Punch");
+	SendDamage(punchDamage);
+}
 
-	protected virtual void PostPunch() {}
+protected virtual void RunPunch() 
+{
+	SendDamage(punchDamage);
+}
+
+protected virtual void PostPunch() {}
 
 ```
 [listings. 3 added virtual method for each action state.]
 
 However i soon relised this was more complercated than it needed to be, and there was no intention of extending the functionaliy of the action except for checking if strum is up/down. Therefor i racked my brain a bit more to find a more logical solution, i thourth it might be better to replace the if statment condistion with abstract methods (for enter and exit) [listings. 4] so that they can be implermented in a child class [listings. 5].
 
-```
-	private void Punch()
+```c#
+private void Punch()
+{
+	// Red
+	// Play Punch Animation
+	if ( EnterPunch() )
 	{
-		// Red
-		// Play Punch Animation
-		if ( EnterPunch() )
-		{
-			
-			redDown = true;
-			CurrentAction = Actions.Punch;
-			animator.SetTrigger("Punch");
-			SendDamage(punchDamage);
-
-		}
-		else if ( CurrentAction == Actions.Punch )
-		{
-			SendDamage(punchDamage);
-		}
-		else if ( ExitPunch() )
-		{
-			redDown = false;
-			damageApplied = false;
-		}
+		
+		redDown = true;
+		CurrentAction = Actions.Punch;
+		animator.SetTrigger("Punch");
+		SendDamage(punchDamage);
 
 	}
+	else if ( CurrentAction == Actions.Punch )
+	{
+		SendDamage(punchDamage);
+	}
+	else if ( ExitPunch() )
+	{
+		redDown = false;
+		damageApplied = false;
+	}
 
-	protected abstract bool EnterPunch();
+}
 
-	protected abstract bool ExitPunch();
+protected abstract bool EnterPunch();
+
+protected abstract bool ExitPunch();
 ```
 [listings. 4, added abstract method for enter and exist condisions]
 
 this now ment i could simple inherit form the ``Player`` class and just implerment the Enter and Exit condisions for each controller schema [listings. 5][listings. 6]
 
-```
-	protected override bool EnterPunch()
-	{
+```c#
+protected override bool EnterPunch()
+{
 
-		bool struming = Strum_up > 0 || Strum_down > 0;
+	bool struming = Strum_up > 0 || Strum_down > 0;
 
-		return struming && Red > 0 && !redDown && CurrentAction == Actions.None;
-	}
+	return struming && Red > 0 && !redDown && CurrentAction == Actions.None;
+}
 
-	protected override bool ExitPunch()
-	{
-		return Strum_up == 0 && Strum_down == 0;
-	}
+protected override bool ExitPunch()
+{
+	return Strum_up == 0 && Strum_down == 0;
+}
 ```
 [Listings. 5, Player Controle schema 1, enter exit methods for punch]
 
-```
-	protected override bool EnterPunch()
-	{
-		return Red > 0 && !redDown && CurrentAction == Actions.None;
-	}
+```c#
+protected override bool EnterPunch()
+{
+	return Red > 0 && !redDown && CurrentAction == Actions.None;
+}
 
-	protected override bool ExitPunch()
-	{
-		return Red == 0 && redDown;
-	}
+protected override bool ExitPunch()
+{
+	return Red == 0 && redDown;
+}
 ```
 [Listings. 6, Player Controle schema 2, enter exit methods for punch]
 
