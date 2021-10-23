@@ -1,4 +1,4 @@
-## A Tecnical look at A/B testing 2 controller schemes with a GH controller.
+## A Technical look at A/B testing 2 controller schemes with Guitar Hero controllers
 #### Entry: <span id="index"></span>, Published: <span id="published"></span>
 
 <span class="priv_entry" style="display: inline;"></span>
@@ -7,29 +7,29 @@
 | 
 <span class="next_entry" style="display: inline;"></span>
 
-We have been set another short project and where asked to begin thinking about ideas releating to culture and society. Furthermore, we also had to think of some technical asspects or aesthetics that we would like to work on. In a workshop we where asked to complile our ideas into a Mural board shared among the cohort, which we would then become a market place of ideas. We then had to choose some of the ideas we liked and form teams to begin producing a game artifact. My Mural board consisted of meny idea based around conspiracy theories, religon, 90s and corperation for the cultureal aspect; real-time audio synthesis, flocking (AI) for technical and old school comic books as an aesthetic [fig. 1]. 
+We have been set another short project and were asked to begin thinking about ideas relating to culture and society. Furthermore, we also had to think of some technical aspects or aesthetics that we would like to work on. Later in a workshop we were asked to compile our ideas into a Mural board shared among the cohort, which we would then become a marketplace of ideas. We then had to choose some of the ideas we liked and form teams to begin producing a game artifact. My Mural board consisted of many ideas based around conspiracy theories, religion, 90s and corporation for the cultural aspect. While for the technical side of things it consisted of real-time audio synthesis, flocking (AI) and old school comic books as an aesthetic [fig. 1]. 
 
 [fig. 1][Mural board]
 
-Looking back i may of missed the point a little, as most people just focused on developing a single idea around a cultural and technical/aesthetic aspect, however i had few randome ideas. The first was to was to re-imagin how physics would work on a flat earth in a sola system based around our current understanding. You would then have to protect the flat earth form extraterrestrials and UFOs. The second idea was to have a island with a road network and serval cities, the player would have to place work and events around island conntected to roads witch the citazens would have to travle to. The player would have to serticly place the work and event locations around to prevent grid lock, which would become gameover.
+Looking back, I may have missed the point a little, as most people just focused on developing a single idea around a cultural and technical/aesthetic aspect, however I had few random ideas. The first was to re-imagine how physics would work on a flat earth in a solar system based around our current understanding. You would then have to protect the flat earth form extra-terrestrials and UFOs. The second idea was to have an island with a road network and serval cities, the player would have to place work and events around island connected to roads witch the citizens would have to travel to. The player would have to strategically place the work and event locations around to prevent grid lock, which would become game over.
 
-However, most other ideas in the cohort where much more delveloped than mine, therefor i joined another group. Which to be honest had quite a good idea in my opinion. It was to create a punk rock theamed streat fighter game, wich uses a guirtur hero controller. Furthermore, each scene would be set in a commic strip (simular to comix zone[fig. 2][[1](#c1)]) which is all ilastrated using pixle art. During our initatial sprinting planning session two different controller schemas where mentioned. The first schema [fig. 3] aims to make you feel like your playing the guitar to fight while the second schema [fig. 4] takes a more traditional approch to give instance feedback to the player.
+However, most other ideas in the cohort where much more developed than mine, therefor I joined another group. Which to be honest had quite a good idea in my opinion. It was to create a punk rock teamed street fighter game, which uses a guitar hero controller. Furthermore, each scene would be set in a comic strip (similar to comix zone [fig. 2][[1](#c1)]) which is all illustrated using pixel art. During our initial sprinting planning session two different controller schemas where mentioned. The first schema [fig. 3] aims to make you feel like you’re playing the guitar to fight while the second schema [fig. 4] takes a more traditional approach to give instance feedback to the player.
 
 [Fig.2 Comix zone]
 [Fig.3 controller schema 1]
 [Fig.4 controller schema 2]
 
-Basicly in the first schema you hold down an attack button and strum to active the atack, strum up to jump and down to crouch and use to of the buttons to move. While on the second schema you just press the attack buttons to activate the attack, strum up and down to move and use the to remaining two buttons to jump and crouch. As a team we couldent come to an agreement on which schema to use, through we where leaning towards the more traditional approch. However, we decided to do some A/B testing to see weather players perfered one over the other. This ment i now how to find a way to implerment two different controller schemas without have two different code bases.
+Basically, in the first schema you hold down an attack button and strum to active the attack, strum up to jump, strum down to crouch and use two of the buttons to move. While on the second schema you just press the attack buttons to activate the attack, strum up and down to move and use the remaining two buttons to jump and crouch. As a team we couldn’t come to an agreement on which schema to use, though we were leaning towards the more traditional approach. However, we decided to do some A/B testing to see weather players preferred one over the other. This meant i now how to find a way to implement two different controller schemas without have two different code bases.
 
-### Implermenting the Controler Schema
+### Implementing the Controller Schema
 
-To begin i configure the two controllers in the new unity inputs system [[2](#c2)] as it allows different action maps (or controller groups). In this case configured it as ``player_1`` and ``player_2`` [fig. 5] each maped to its own Guirtar hero controller, in this case this was quite simple since both controler are from different version of the game making it easy to disiglish between the two. Once i had defined the inputs for the two controllers i had to find a way to access the two action maps consistently without having too much dupulcat code. So i decided to implment each input as a property which selects the correct action map based on the player number [listings. 1].
+To begin I configure the two controllers in the new Unity inputs system [[2](#c2)] as it allows different action maps (or controller groups). In this case configured it as ``player_1`` and ``player_2`` [fig. 5] each mapped to its own Guitar Hero controller, in this case this was quite simple since both controllers are from different versions of the game making it easy to distinguish between the two. Once I had defined the inputs for the two controllers, I had to find a way to access the two action maps consistently without having too much duplicate code. So, I decided to implement each input as a property which selects the correct action map based on the player number [listings. 1].
 
 [fig 5. Unity inputs action maps.]
 
 ```c#
 
-public enum Player{ One=-1, Two=1 }			// define as -1 and 1 since it the player multiplyer for direction and power attack
+public enum Player{ One=-1, Two=1 }			// define as -1 and 1 since its the player multiplier for direction and power attack
 public Player playerNumber = Player.One;
 
 // Inputs
@@ -45,9 +45,9 @@ protected float Strum_down => (playerNumber == Player.One ? inputSchem.Player1.S
 protected float Wham => (playerNumber == Player.One ? inputSchem.Player1.Wham : inputSchem.Player2.Wham).ReadValue<float>();
 
 ```
-[listings. 1, Inputs properties which sellects the correct action map]
+[listings. 1, Inputs properties which selects the correct action map]
 
-Following this i decided to just implerment the more traditional schema (schema 2) as it is a little simpler and would alow me to develop the basic structre and functionality for each action. Therefor i implermented each action so it has an entry, hold and exit state [listing. 2].
+Following this I decided to just implement the more traditional schema (schema 2) as it is a little simpler and would allow me to develop the basic structure and functionality for each action. Therefor I implemented each action so it has an entry, hold and exit state [listing. 2].
 
 ```c#
 
@@ -74,7 +74,7 @@ private void Punch()
 ```
 [listings. 2, Punch method with the entry, hold and exit states]
 
-Each action (Jump, Crouch, Punch, Kick, Headbutt) is almost the same as puch [listings. 2] except they set the relevent animations and button presses. Now i had to find a way to implerment the other controler scheme without duplicating the code. So i went about making the ``Player`` class abstract, so i could extend the functinality. Originaly i decided to add virtual method for each state so i could also check if the player strumed while pressing the action key [listing. 3].
+Each action (Jump, Crouch, Punch, Kick, Headbutt) is almost the same as punch [listings. 2] except they set the relevant animations and button presses. Now I had to find a way to implement the other controller scheme without duplicating the code. So I went about making the ``Player`` class abstract, so I could extend the functionality. Originally, I decided to add virtual methods for each state so I could also check if the player strummed while pressing the action key [listing. 3].
 
 ```c#
 
@@ -119,7 +119,7 @@ protected virtual void PostPunch() {}
 ```
 [listings. 3 added virtual method for each action state.]
 
-However i soon relised this was more complercated than it needed to be, and there was no intention of extending the functionaliy of the action except for checking if strum is up/down. Therefor i racked my brain a bit more to find a more logical solution, i thourth it might be better to replace the if statment condistion with abstract methods (for enter and exit) [listings. 4] so that they can be implermented in a child class [listings. 5].
+However, I soon realised this was more complicated than it needed to be, and there was no intention of extending the functionality of the action except for checking if strum is up/down. Therefor I racked my brain a bit more to find a more logical solution, I thought it might be better to replace the if statement condition with abstract methods (for enter and exit) [listings. 4] so that they can be implemented in a child class [listings. 5].
 
 ```c#
 private void Punch()
@@ -151,9 +151,9 @@ protected abstract bool EnterPunch();
 
 protected abstract bool ExitPunch();
 ```
-[listings. 4, added abstract method for enter and exist condisions]
+[listings. 4, added abstract method for enter and exist conditions]
 
-this now ment i could simple inherit form the ``Player`` class and just implerment the Enter and Exit condisions for each controller schema [listings. 5][listings. 6]
+this now meant I could simple inherit form the ``Player`` class and just implement the Enter and Exit conditions for each controller schema [listings. 5][listings. 6]
 
 ```c#
 protected override bool EnterPunch()
@@ -182,17 +182,18 @@ protected override bool ExitPunch()
 	return Red == 0 && redDown;
 }
 ```
-[Listings. 6, Player Controle schema 2, enter exit methods for punch]
+[Listings. 6, Player controller schema 2, enter exit methods for punch]
 
-This now ment all i had to do was created a ``BasePlayer`` prefab and attach the relevent player controler schema to a prefab veriant of the ``BasePlayer`` and furthermore, add them to there own scene. Then we ready to build the project and A/B test.
+Now all I had to do was created a ``BasePlayer`` prefab and attach the relevant player controller schema to a prefab variant of the ``BasePlayer`` and furthermore, add them to their own scene. Then we ready to build the project and A/B test.
 
 ### A/B Testing
-To begin with the A/B testing, we asked several people (about 10 in total) ato play through the two controller schemas. We got quite a mixed bag or responces which wasent nessesarly what we expected. We expected that most people would perfer the traditional schema (schema 2), however what we found was the more "casule" players prefered the traditional schema while the more "hardcore" players liked the protencal of the guirtar scheme (schema 1). In genral everone seemed to really liked how responceive the traditional schema was, in the sence that you press a button and it attacks, however the people that liked the guirtar scheme found it was very satifying to strum to trigger the attack. They also felt there was more to build on using the guirtar scheme for example, struming down could trigger an over arm punch while struming up would preform an under arm punch (or upper cut). However, players did find some protental issues with the guirtar scheme, because jump is mapped to strum up without pressing an action button it made it extreamly hard to preform jump, attack combos, which is an importent aspect of games such as street fighter. Whatsmore, we found that people with smaller hands found it hard to move forwards and backwards in the guirtar scheme or to jump and crouch in the traditional schema because they where mapped to the top and bottom buttons resptivly. We did want to make switching between the two action to be hard, however it wasent recived well by the players, so we had a meeting to discuss solutions for the points rasied.
+To begin the A/B testing, we asked several people (about 10 in total) to play through the two controller schemas. We got quite a mixed bag or response which wasn’t necessarily what we expected. We expected that most people would prefer the traditional schema (schema 2), however what we found was the more "casual" players preferred the traditional schema while the more "hardcore" players liked the potential of the guitar scheme (schema 1). In general, everyone seemed to really liked how responsive the traditional schema was, in the sense that you press a button and it attacks, however the people that liked the guitar scheme found it was very satisfying to strum to trigger the attack. They also felt there was more to build on using the guitar scheme for example, strumming down could trigger an over arm punch while strumming up would perform an under-arm punch (or upper cut). However, players did find some potential issues with the guitar scheme, because jump is mapped to strum up without pressing an action button it made it extremely hard to preform jump, attack combos, which is an important aspect of games such as street fighter. What’s more, we found that people with smaller hands found it hard to move forwards and backwards in the guitar scheme or to jump and crouch in the traditional schema because they were mapped to the top and bottom buttons respectively. We did want to make switching between the two actions to be hard, however it wasn’t received well by the players, so we had a meeting to discuss solutions for the points raised.
 
-To start because the responces where so mixed we decied that we should have two game modes, "casule" (traditional schema) and "punk" (guirtar scheme). We then disscused how we could resolve the minor issues raised and came up with quite an easy solution for the move (guirtar scheme) and jump/crouch (traditional schema) buttons. We decided to just move them to the top two buttons and have the attack actions as the bottom 3 buttons. Furthermore to resolve the jump combo issue we think it would be worth moving it to the the wammy bar on the controller and we would do further A/B testing in the future. 
+To start because the responses where so mixed, we decided that we should have two game modes, "casual" (traditional schema) and "punk" (guitar scheme). We then discussed how we could resolve the minor issues raised and came up with quite an easy solution for the move (guitar scheme) and jump/crouch (traditional schema) buttons. We decided to just move them to the top two buttons and have the attack actions as the bottom 3 buttons. Furthermore, to resolve the jump combo issue we think it would be worth moving it to the whammy bar on the controller and we would do further A/B testing in the future. 
 
 ### Conclusion
-At first i found it quite dounting having to find a way to create two different controller schemas, but affter coming up with a relativly simple solution it was pretty straight forwards to implerment. Furthermore, iv never really done any form of A/B testing, however, i now see that it is one of the valubale things a developer can do to get player insight into two different systems. Whatsmore, we dident expect that the guirtar scheme would be as well recived as it was due to its protencal, althouth it needs a little more refining. I will defently do more A/B testing in the furture as its been a very plesent experance to gain insights.
+At first I found it quite daunting having to find a way to create two different controller schemas, but after coming up with a relatively simple solution it was pretty straight forwards to implement. Furthermore, I’ve never really done any form of A/B testing, however, I now see that it is one of the most valuable things a developer can do to get player insight into two different systems. What’s more, we didn’t expect that the guitar scheme would be as well received as it was due to its potential, although it needs a little more refining. I will decently do more A/B testing in the future as it’s been a very pleasant experience to gain insights.
+
 
 <!-- 
 Notes:
