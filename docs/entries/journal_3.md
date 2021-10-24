@@ -119,11 +119,11 @@ In this post we have briefly explored some of the contributing factors of empath
 ##### All citations are available in a single [bibtex file](../references.bib)
 
 <p id="c1">
-[1] J. Belman and M. Flanagan, “Designing games to foster empathy,”InternationalJournal of Cognitive Technology, vol. 15, no. 1, p. 11, 2010.
+[1] J. Belman and M. Flanagan, “Designing games to foster empathy,” International Journal of Cognitive Technology, vol. 15, no. 1, p. 11, 2010.
 </p>
 
 <p id="c1">
-[2] W. G. Stephan, K. Finlayet al., “The role of empathy in improving intergrouprelations,”Journal of Social issues, vol. 55, no. 4, pp. 729–743, 1999.
+[2] W. G. Stephan, K. Finlayet al., “The role of empathy in improving intergrouprelations,”  Journal of Social issues, vol. 55, no. 4, pp. 729–743, 1999.
 </p>
 
 
