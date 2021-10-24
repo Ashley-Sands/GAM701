@@ -61,7 +61,7 @@ The paper then follows up with a wealth of information regarding these two board
 ### Principle 1
  *Players are more likely to empathise when an intentional effort is made when the game begins. This can be approached explicitly or via a more subtle encouragement focusing on an empathetic posture. However, if empathetic induction is ineffective from the offset, most players will play "unempathetically".* [[1](#c1)]
 
-This principle makes me think of the opening scene of 'Ori and The Blind forest' [fig. 3] which induces empathy right from the offset, that is then conveyed throughout the story. It begins by giving the backstory of the joys and struggles of how we got to where we are now which then takes a dark turn of mourning and loneliness which comes across quite explicitly. There approach induces empathy really well, that it even brings a tear to the eyes of many players.
+This principle makes me think of the opening scene of ['Ori and The Blind forest'](https://www.orithegame.com/)[fig. 3] which induces empathy right from the offset, that is then conveyed throughout the story. It begins by giving the backstory of the joys and struggles of how we got to where we are now which then takes a dark turn of mourning and loneliness which comes across quite explicitly. There approach induces empathy really well, that it even brings a tear to the eyes of many players.
 
 <p style="text-align: center;">
 <img src="../resources/J3-Ori.jpg" style="margin-left: auto; margin-right: auto; width: 50%" >
@@ -79,7 +79,7 @@ With this in mind, I feel that we failed to convey the empathy onto the player. 
 
 Belman and Flanagan further build on this principle by giving an example about assisting peers at risk of suicide in non-player characters (NPCs). They continue by suggesting that it is important that the behaviours are modelled accurately which could be a discouraging task to undertake. However, within student projects they often fallback on iconic representations rather than realistic behaviours, for example, a thunderstorm hover over the head of a suicidal NPCs head, which can be a useful representation in video games. However, it should be decided on a case-by-case basis whether an iconic or true-to-life representation is appropriate given the projects goals.
 
-In my opinion 'This War of Mine' [[3](#c3)][fig. 4][fig, 5] is an fantastic example of a true-to-life representation of depression. In the game you play as a group of civilians, trying to survive in a besieged city; lacking essential items such as food and medicine; in danger of being shot by snipers or raided during the night by armed bandits and given constant moral dilemmas. Each of these aspects contributes to the mental state of the characters, as they become sad they begin to move slower, slouch over as they walk and voice their concerns through short dialogue. As the characters become depressed, they become almost unplayable, they refuse to participate in any activity and often remain in their beds for the entire day. It up to the player to instruct the remaining civilians to comfort, encourage and nurture them back to health. All of this can cause the player to feel a great deal of empathy and when things are going horrible wrong it can even cause a state of helplessness.
+In my opinion ['This War of Mine'](https://www.thiswarofmine.com/)[fig. 4][fig, 5] is an fantastic example of a true-to-life representation of depression. In the game you play as a group of civilians, trying to survive in a besieged city; lacking essential items such as food and medicine; in danger of being shot by snipers or raided during the night by armed bandits and given constant moral dilemmas. Each of these aspects contributes to the mental state of the characters, as they become sad they begin to move slower, slouch over as they walk and voice their concerns through short dialogue. As the characters become depressed, they become almost unplayable, they refuse to participate in any activity and often remain in their beds for the entire day. It up to the player to instruct the remaining civilians to comfort, encourage and nurture them back to health. All of this can cause the player to feel a great deal of empathy and when things are going horrible wrong it can even cause a state of helplessness.
 
 <p style="text-align: center;">
 <img src="../resources/j3-ThisWarOfMineLogo.jpg" style="margin-left: auto; margin-right: auto; width: 50%" >
@@ -97,7 +97,7 @@ While the amount of detail in 'This War of Mine' is well outside of the scope of
 
 ### Principle 3
 
-*A short burst of emotional empathy works well if desired outcomes to not require significant shifts in how players’ beliefs about themselves, the world, or themselves in relation to the world. But if these kinds of shifts are a design goal, the game should integrate both cognitive and emotional empathy* [[1](c1)]
+*A short burst of emotional empathy works well if desired outcomes to not require significant shifts in how players’ beliefs about themselves, the world, or themselves in relation to the world. But if these kinds of shifts are a design goal, the game should integrate both cognitive and emotional empathy* [[1](#c1)]
 
 Personally, I fell this is another thing that 'This War of Mine' does really well. Throughout the game several NPCs will arrive to your shelter and ask for help. Sometimes to go recuse someone while other times they could be asking for supplies to survive or seeking to join your shelter. They further play on this with their choose of character, for instance using children for some situations, which could bias the players decision depending on the circumstances. However, the players decision doesn’t overly affect the outcome of the game, it may change the mood of some characters depending on their belief system. Usually after such encounter, a short message will appear in the characters bio, sometimes they agree with the player while others will disagree. It often feels like the game is trying to challenge the player perception on the situation, when a character disagrees. This can sometimes leave the player feeling guilty for their original chooses.
 
@@ -105,7 +105,7 @@ We could have incorporated something similar, just without the level of depth in
 
 ### Principle 4
 
-*Emphasize points of similarity between the player and people or groups with whom they are supposed to empathize, but beware of provoking defensive avoidance.* [[1](c1)]
+*Emphasize points of similarity between the player and people or groups with whom they are supposed to empathize, but beware of provoking defensive avoidance.* [[1](#c1)]
 
 In 'This War of Mine' the similarities will come from the fact that most players are just civilians, however if the player was a former or current military personnel it may provoke a defensive avoidance response. However, in our game we choose to use an animal, such as a common pet that people often relate to and we choose to keep it free from gender in an attempt to further appeal to player. However, this approach could also cause to some players to avoid the emotional response intended. 
 
@@ -122,7 +122,7 @@ In this post we have briefly explored some of the contributing factors of empath
 [1] J. Belman and M. Flanagan, “Designing games to foster empathy,” International Journal of Cognitive Technology, vol. 15, no. 1, p. 11, 2010.
 </p>
 
-<p id="c1">
+<p id="c2">
 [2] W. G. Stephan, K. Finlayet al., “The role of empathy in improving intergrouprelations,”  Journal of Social issues, vol. 55, no. 4, pp. 729–743, 1999.
 </p>
 

@@ -42,10 +42,24 @@ License: This war of mine log is owned by 11 bit studio and is used under 'fair 
 Last Accessed: 05 october 2021
 
 
-### j3-ThiswarOfMineShalter
+### j3-ThiswarOfMineShalter.jpg
 source: https://cdn.cloudflare.steamstatic.com/steam/apps/282070/ss_9a8e8724d4bc5a1ffc25b5aa52ed0400a856db6b.600x338.jpg
 
 License: This war of mine is owned by 11 bit studio and is used under 'fair use'   
 
 Last Accessed: 05 october 2021
+
+### j5-ScrumFramwork.png
+Source: https://scrumorg-website-prod.s3.amazonaws.com/drupal/2021-01/Scrumorg-Scrum-Framework-tabloid.pdf
+
+License: Used under 'Fair Use'
+
+Last Accessed: 15 october 2021
+
+### j6-CommixZone.png
+Source: https://upload.wikimedia.org/wikipedia/en/5/52/Comix_zone_sega-genesis.png
+
+License: ComixZone is owned by Sega and is Used under 'Fair Use'
+
+Last Accessed: 21 october 2021
 

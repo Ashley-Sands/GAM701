@@ -11,7 +11,7 @@ On Thursday, last week, we were put into pairs and set our second short project,
 
 For the last 15-20 minutes of the workshop, we got into our pairs and discussed possible remediation projects. We both agreed that we would like to do something regarding music from the start and began discussing ideas. Pretty early on in the discussion, [Darude - Sandstorm](https://www.youtube.com/watch?v=y6120QOlsfU) was mentioned and we both kind of got stuck on that idea and started coming up with ideas that we could do with that track in particular. The person I was working with, Jeanett, mentioned some alternative version of the track, such as the [rock](https://www.youtube.com/watch?v=LNDwcPB3HLY), [8-bit](https://www.youtube.com/watch?v=f4ERRGkGtpo) and [folk](https://www.youtube.com/watch?v=lAqo2N06e3w) versions of the track. Which made me think, 'wouldn’t it be cool if you could explore a little world, as you enter areas of the world a different version of the song will be mixed in, allowing the user/player to create their own remix of all the different versions'. We both decided the scene should be set in the desert; however, I didn’t really consider how I could actually achieve the technical aspect of idea, nor did we discuss how the audio clips would need to be formatted. At this point it was the end of the lecture/workshop, we probably should have stayed to develop the idea further, but I really needed food as I could no longer think clearly, so I made a break for it at the first instance (politely).
 
-Although this is a form of remediation, I can't help but feel that we maybe missed the point a little in regards to the brief as it didn’t really improve upon or remedy old technologies, but rather incorporated two forms of media into a single media, referred to as hypermedia [()[#c1]]. Furthermore, we never really discussed whether or not to take an immediacy [()[#c2]] or hypermediacy [()[#c3]] approach to the project.
+Although this is a form of remediation, I can't help but feel that we maybe missed the point a little in regards to the brief as it didn’t really improve upon or remedy old technologies, but rather incorporated two forms of media into a single media, referred to as hypermedia [(1)[#c1]]. Furthermore, we never really discussed whether or not to take an immediacy [(1)[#c1]] or hypermediacy [(1)[#c1]] approach to the project.
 
 The next day I set out to start building the world and programming the mechanics for the game. But while doing so I realised that we had maybe missed the point a bit, which further increased my procrastination cycles and made me worry about what we were going to do to justify the slight misunderstanding. Furthermore, it strengthened my creativity block that I’ve been experiencing and eventually I quit the application in a bit of a panic as I began to feel overwhelmed, with not knowing what to do.
 
@@ -36,10 +36,8 @@ Anyway, here's what we made, it doesn’t quite hit the points of the brief and 
 ### Cites
 ##### All citations are available in a single [bibtex file](../references.bib)
 
-// TODO....
-
 <p id="c1">
-[1] Author, “Title,” [Online]. Available: URL, [Accessed: day Month Year] 
+[1] D. Blakesley, “A review of remediation: Understanding new media,” Kairos, vol. 6, no. 1, 2001
 </p>
 
 <br />

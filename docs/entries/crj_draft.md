@@ -1,7 +1,5 @@
 Crititcal Reflection Journal
 
-# Abstract 
-
 # Introduction
 Over the pass six weeks there has been many opertunitys to reflect on my personal and prefessional practises and explore
 
