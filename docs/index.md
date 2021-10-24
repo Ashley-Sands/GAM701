@@ -38,7 +38,7 @@ This leads us into the final semester, where we will be starting **GAM705 Major 
 [Inducing Empathy In Games (05-10-21)](./entries/journal_3.md)  
 [The Importences of a Game Design Document (08-10-21)](./entries/journal_4.md)  
 [The Importences of sprint planing and scrum (13-10-2021)](./entries/journal_5.md)  
-[A Tecnical look at A/B testing 2 controller schemes with a GH controller. (18-10-2021)](./entries/journal_6.md)  
+[A Technical look at A/B testing 2 controller schemes with Guitar Hero controllers. (18-10-2021)](./entries/journal_6.md)  
 
 <br />
 <br />
@@ -46,7 +46,7 @@ This leads us into the final semester, where we will be starting **GAM705 Major 
 ### Cites
 ##### All citations are available in a single [bibtex file](../references.bib)
 <p id="c1">
-[1]  K. Bailey,“Cloud Computing Will Bring Big Changes to First-PersonShooters in ’Just a Couple Years,’ DICE GM Says,”   [Online]. Available: https://www.ign.com/articles/battlefield-2042-cloud-computing, 2021, [Accessed 21September 2021].
+[1]  K. Bailey,“Cloud Computing Will Bring Big Changes to First-PersonShooters in ’Just a Couple Years,’ DICE GM Says,” [Online]. Available: https://www.ign.com/articles/battlefield-2042-cloud-computing, 2021, [Accessed 21September 2021].
 </p>
 
 <br />
