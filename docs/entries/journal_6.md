@@ -214,7 +214,7 @@ To begin the A/B testing [[2](#c2)][[3](#c3)], we asked several people (about 10
 <br />
 [Fig 6. Ashley (me) [left] and Matt [right]  play testing 'Are you Punk Enough?']
 
-<img src="../resources/j6-ABSession_1.png" style="margin-left: auto; margin-right: auto; width: 50%" >
+<img src="../resources/j6-ABSession_1.jpg" style="margin-left: auto; margin-right: auto; width: 50%" >
 <br />
 [Fig 7. Ashley (me) [center] observing an A/B testing session for 'Are you Punk Enough?']
 
