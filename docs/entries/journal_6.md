@@ -42,7 +42,7 @@ Basically, in the first schema you hold down an attack button and strum to activ
 To begin I configure the two controllers in the new Unity inputs system [[1](#c1)] as it allows different action maps (or controller groups). In this case configured it as ``player_1`` and ``player_2`` [fig. 5] each mapped to its own Guitar Hero controller, in this case this was quite simple since both controllers are from different versions of the game making it easy to distinguish between the two. Once I had defined the inputs for the two controllers, I had to find a way to access the two action maps consistently without having too much duplicate code. So, I decided to implement each input as a property which selects the correct action map based on the player number [listings. 1].
 
 <p style="text-align: center;">
-<img src="../resources/j6-unityInputs.png" style="margin-left: auto; margin-right: auto; width: 50%" >
+<img src="../resources/j6-unityInputs.png" style="margin-left: auto; margin-right: auto; width: 100%" >
 <br />
 [fig 5. Unity inputs action maps.]
 </p>
