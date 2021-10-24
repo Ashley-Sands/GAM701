@@ -173,7 +173,7 @@ protected abstract bool ExitPunch();
 ```
 [Listings. 4, added abstract method for enter and exist conditions]
 
-this now meant I could simple inherit form the ``Player`` class and just implement the Enter and Exit conditions for each controller schema [listings. 5][listings. 6]
+This now meant I could simple inherit form the ``Player`` class and just implement the Enter and Exit conditions for each controller schema [listings. 5][listings. 6]
 
 ```c#
 protected override bool EnterPunch()
