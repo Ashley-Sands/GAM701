@@ -50,8 +50,6 @@ For the emotions we decided to focus on loneliness, frustration and boredom whic
 </p>
 <br />
 
-[Image-Pokimon][Fig. 1] [Image-Zelder][Fig. 2]
-
 However, somewhere along the lines we lost (or forgot) the emotional dialogue aspect and overlooked how we were going to induce empathy on the player. In a later workshop at university each team was given a piece of writing to read and we were given 'Designing Game to Foster Empathy' [[1](#c1)] witch was really fitting since it something that we lost during the design process of our project. The paper has an incredibly insightful literature review of different forms of empathy taken from many areas of research. Furthermore, it gives several suggestions and principles for incorporating empathy into games and rounds off the paper by giving some example 'games for good'. So, let’s take a dive into the paper and have a look at how we could of better incorporated empathy into our game. 
 
 The literature review begins with explaining that empathy is an important area of research, which has been investigated in a wind rage of fields from conflict resolution and psychology to health care training and even pre-school education. However, in social science it can be described as two broad categories of empathy [[2](#c2)]. The first 'cognitive empathy' which refers to intentionally taking another person' point of view. While on the other hand, 'emotional empathy' can be divided into two subcategories, parallel and reactive. Parallel empathy is understanding vicarious experience of another emotional state. While reactive is described as an emotional response that is dissimilar to what the other person is experiencing [[2](#c2)]. 
