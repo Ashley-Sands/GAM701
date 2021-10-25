@@ -41,12 +41,12 @@ For the emotions we decided to focus on loneliness, frustration and boredom whic
 <p style="text-align: center;">
 <img src="../resources/j3-pokemon.jpg" style="margin-left: auto; margin-right: auto; width: 50%" >
 <br />
-[fig. 1. Screenshot from Pokemon Yellow]
+[Fig 1. Screenshot from Pokemon Yellow]
 <br />
 <br />
 <img src="../resources/j3-zelda.png" style="margin-left: auto; margin-right: auto; width: 50%" >
 <br />
-[fig. 2. Screenshot from The Legend of Zelda]
+[Fig 2. Screenshot from The Legend of Zelda]
 </p>
 <br />
 
